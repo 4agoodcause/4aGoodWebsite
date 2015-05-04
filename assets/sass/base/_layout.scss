@@ -1,0 +1,60 @@
+body {
+  background: $grey;
+}
+
+.container {
+  background: #fff;
+  
+  @include bp-min-width($large) {
+    @include cf;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 72px;
+  }
+}
+
+.wrapper {
+  @include cf;
+  width: 90%;
+  margin: 0 auto;
+  padding: $base 0;
+
+  @include bp-min-width($medium) {
+    width: 94%;
+    max-width: 1208px;
+    padding: $base*3 0;
+  }
+}
+
+.mobile-visible {
+  visibility: visible;
+}
+
+.mobile-hidden {
+  visibility: hidden;
+}
+
+.col-content p:first-of-type {
+  margin-bottom: $base;
+}
+
+.col-content-left {
+  @include bp-min-width($xlarge) {
+    padding-right: 5.15%;
+    padding-top: $base*2;
+  }
+}
+
+.col-content-right {
+  @include bp-min-width($xlarge) {
+    padding-left: 5.15%;
+    padding-top: $base*2;
+  }
+}
+
+.col-devices-right img {
+  @include bp-min-width($xlarge) {
+    float: right;
+    margin-right: -26px;
+  }
+}

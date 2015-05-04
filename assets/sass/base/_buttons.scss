@@ -1,0 +1,73 @@
+
+a {
+	@include global-transition;
+	color: $blue;
+	
+	&:hover {
+    	color: $lt-blue;
+	}
+}
+
+.btn {
+  @include font-size(17px);
+  display: inline-block;
+  min-width: 220px;
+  padding: 0.7em 1.5em;
+  background: $green;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: $med;
+  text-align: center;
+
+  &:hover {
+    background: $md-green;
+    color: #fff;
+  }
+}
+
+.btn-small {
+  @include font-size(15px);
+  min-width: 0;
+  padding: 0.5em 2em;
+}
+
+.btn-blue {
+  background: $lt-blue;
+
+  &:hover {
+    background: $lt-blue-2;
+    color: #fff;
+  }
+}
+
+.btn-outline {
+  background: #fff;
+  border: 1px solid $blue;
+  color: $blue;
+
+  &:hover {
+    background: #fff;
+    border-color: $lt-blue;
+    color: $blue;
+  }
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+	@include global-transition;
+	@include font-size(15px);
+  padding: 0.55em 1.5em;
+  background: $green;
+  border: none;
+  color: #fff;
+  font-family: $goth-ss;
+  font-weight: $med;
+  cursor: pointer;
+}
+
+.cta-link {
+  @include font-size(17px);
+  color: $black;
+  font-weight: $med;
+}

@@ -1,0 +1,57 @@
+
+.footer {
+  @include cf;
+  color: #fff;
+}
+
+.footer .wrapper, {
+  @include bp-min-width($medium) {
+    padding: $base*2 0;
+  }
+}
+
+.footer a {
+  color: #fff;
+  
+  &:hover {
+    color: $sky-blue;
+  }
+}
+
+.footer-top {
+  @include cf;
+  background: $blue;
+}
+
+.footer-bottom {
+  background: $lt-blue; 
+}
+
+.footer-bottom p {
+  @include font-size(13px);
+}
+
+.footer-co-info {
+  float: left;
+}
+
+.footer-co-info .footer-logo {
+  margin-bottom: 18px;
+}
+
+.footer-co-info .footer-phone {
+  margin-bottom: 12px;
+}
+
+.footer-social li {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-nav a {
+  @include font-size(14px);
+}

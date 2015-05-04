@@ -1,0 +1,33 @@
+
+.header {
+  @include cf;
+  overflow: hidden;
+
+  @include bp-min-width($large) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #fff;
+  }
+}
+
+.header .wrapper {
+  position: relative;
+  padding: 1em 0;
+
+  @include bp-min-width($large) {
+    padding: 1.5em 0;
+  }
+}
+
+.header .logo {
+  float: left;
+
+  @include bp-min-width($large) {
+    position: absolute;
+    top: 16px;
+    left: 0;
+  }
+}

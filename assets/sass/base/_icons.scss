@@ -1,0 +1,77 @@
+
+[class*="icon-"] {
+  display: inline-block;
+  background: $sprite no-repeat 0 0;
+}
+
+.icon-arrow-nav {
+  width: 12px;
+  height: 8px;
+}
+
+.icon-arrow-select {
+  width: 11px;
+  height: 7px;
+  background-position: -15px 0;
+}
+
+.icon-arrow-select-lg {
+  width: 14px;
+  height: 9px;
+  background-position: -15px -12px;
+}
+
+.icon-arrow-blue-right {
+  width: 6px;
+  height: 10px;
+  margin-left: 2px;
+  background-position: -30px 0;
+}
+
+.icon-search {
+  width: 19px;
+  height: 19px;
+  background-position: 0 -212px;
+}
+
+.icon-calendar {
+  width: 19px;
+  height: 19px;
+  background-position: 0 -235px;
+}
+
+.icon-download {
+  width: 21px;
+  height: 22px;
+  background-position: 0 -23px;
+}
+
+.icon-add {
+  width: 21px;
+  height: 22px;
+  background-position: 0 -47px;
+}
+
+.icon-view {
+  width: 21px;
+  height: 12px;
+  background-position: 0 -72px;
+}
+
+
+[class*="icon-social-"] {
+  width: 38px;
+  height: 39px;
+}
+  
+.icon-social-twitter {
+  background-position: 0 -87px;
+}
+
+.icon-social-facebook {
+  background-position: 0 -129px;
+}
+
+.icon-social-linkedin {
+  background-position: 0 -170px;
+}

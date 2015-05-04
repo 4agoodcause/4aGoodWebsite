@@ -1,0 +1,55 @@
+
+.section-testimonals {
+  background: $creme;
+}
+
+.testimonial-quote {
+  @include font-size(17px);
+  position: relative;
+  margin-bottom: 16px;
+  font-style: italic;
+  
+  @include bp-min-width($medium) {
+    @include font-size(21px);
+    @include line-height(30px);
+  }
+}
+
+.quote-mark {
+  @include font-size(48px);
+  position: absolute;
+  left: -34px;
+  top: 10px;
+  color: $black;
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: $bold;
+}
+
+.testimonial-info {
+  @include cf;
+}
+
+.testimonial-headshot {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.testimonial-name-org {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.testimonial-name {
+  @include font-size(17px);
+  font-weight: $med;
+}
+
+.logo-grid li {
+  float: left;
+  width: 33.333%;
+  margin-bottom: $base;
+  text-align: center;
+}

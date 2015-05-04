@@ -1,0 +1,124 @@
+
+.home-hero .wrapper {
+  @include bp-min-width($medium) {
+    padding: $base*5 0;
+  }
+}
+
+.home-hero h1 {
+  @include bp-min-width($medium) {
+    @include font-size(60px);
+  }
+}
+
+.home-stats {
+  text-align: center;
+}
+
+.home-stats .wrapper {
+  border-bottom: 1px solid $lt-lt-grey;
+}
+
+.home-stats .section-title {
+  color: $black;
+}
+
+.stat-blocks {
+  @include cf;
+  margin-bottom: $base;
+
+  @include bp-min-width($medium) {
+    width: 824px;
+    margin: 0 auto $base;
+  }
+}
+
+.stat-blocks li {
+  @include bp-min-width($medium) {
+    position: relative;
+    float: left;
+    width: 382px;
+    text-align: left;
+  }
+}
+
+.stat-blocks li:first-child {
+  @include bp-min-width($medium) {
+    margin-right: 60px;
+  }
+}
+
+.stat-number {
+  @include font-size(72px);
+  font-family: $goth;
+  color: $lt-green;
+  line-height: 1;
+  font-weight: $med;
+
+  @include bp-min-width($medium) {
+    @include font-size(100px);
+  }
+}
+
+.stat-label {
+  @include font-size(17px);
+
+  @include bp-min-width($medium) {
+    @include font-size(21px);
+    @include line-height(28px);
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 140px;
+    padding-top: 6px;
+  }
+}
+
+.stat-blocks li:first-child .stat-label {
+  right: 17px;
+}
+
+.home-stats .caption {
+  @include font-size(13px);
+  color: $grey;
+}
+
+.rates-wrapper {
+  padding: 36px 20px;
+  background: $blue;
+  color: #fff;
+  text-align: center;
+
+  @include bp-min-width($medium) {
+    border-radius: 30px;
+    margin-right: -20px;
+  }
+}
+
+.home-pricing .transaction-rates {
+  @include font-size(36px);
+  margin: 0 -20px 12px;
+  font-family: $goth;
+  line-height: 1;
+
+  @include bp-min-width($medium) {
+    @include font-size(48px);
+    background: rgba(255,255,255,0.1);
+  }
+}
+
+.home-pricing .caption {
+  color: $lt-lt-grey;
+}
+
+.home-pricing .plan-features {
+  @include font-size(19px);
+  margin-top: 12px;
+  font-weight: $med;
+
+  @include bp-min-width($medium) {
+    @include font-size(21px);
+    @include line-height(36px);
+  }
+}
+

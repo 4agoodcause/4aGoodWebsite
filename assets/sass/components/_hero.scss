@@ -1,0 +1,24 @@
+
+.hero {
+  background: $blue;
+  color: #fff;
+  text-align: center;
+}
+
+.hero .wrapper {
+  padding: $base*4 0;
+}
+
+.hero h1:not(:last-child) {
+  margin-bottom: $base;
+}
+
+.hero p {
+  @include max-8-col;
+  @include font-size(19px);
+  color: #fff;
+  
+  &:not(:last-child) {
+    margin-bottom: $base;
+  }
+}
