@@ -9,6 +9,10 @@
   margin-bottom: 16px;
   font-style: italic;
   
+  @include bp-max-width($xlarge) {
+    padding-left: 34px;
+  }
+  
   @include bp-min-width($medium) {
     @include font-size(21px);
     @include line-height(30px);
@@ -18,28 +22,30 @@
 .quote-mark {
   @include font-size(48px);
   position: absolute;
-  left: -34px;
+  left: 0;
   top: 10px;
   color: $black;
   font-family: Georgia, serif;
   font-style: normal;
   font-weight: $bold;
+
+  @include bp-min-width($xlarge) {
+    left: -34px;
+  }
 }
 
 .testimonial-info {
   @include cf;
+  position: relative;
 }
 
 .testimonial-headshot {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
   border-radius: 50%;
 }
 
 .testimonial-name-org {
-  display: inline-block;
-  vertical-align: middle;
+  @include vertical-center(absolute);
+  left: 86px;
 }
 
 .testimonial-name {
@@ -49,7 +55,12 @@
 
 .logo-grid li {
   float: left;
-  width: 33.333%;
+  width: 50%;
   margin-bottom: $base;
+  padding: 0 10px;
   text-align: center;
+
+  @include bp-min-width($large) {
+    width: 33.333%;
+  }
 }

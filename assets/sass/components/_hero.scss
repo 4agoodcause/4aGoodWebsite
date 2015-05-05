@@ -6,7 +6,11 @@
 }
 
 .hero .wrapper {
-  padding: $base*4 0;
+  padding: $base*2 0;
+
+  @include bp-min-width($medium) {
+    padding: $base*4 0;
+  }
 }
 
 .hero h1:not(:last-child) {
@@ -15,10 +19,14 @@
 
 .hero p {
   @include max-8-col;
-  @include font-size(19px);
+  @include font-size(17px);
   color: #fff;
   
   &:not(:last-child) {
     margin-bottom: $base;
+  }
+
+  @include bp-min-width($medium) {
+    @include font-size(19px);
   }
 }

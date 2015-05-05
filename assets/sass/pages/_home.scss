@@ -43,6 +43,10 @@
 }
 
 .stat-blocks li:first-child {
+  @include bp-max-width($medium) {
+    margin-bottom: $base;
+  }
+
   @include bp-min-width($medium) {
     margin-right: 60px;
   }
@@ -54,6 +58,10 @@
   color: $lt-green;
   line-height: 1;
   font-weight: $med;
+
+  @include bp-max-width($medium) {
+    display: block;
+  }
 
   @include bp-min-width($medium) {
     @include font-size(100px);
@@ -83,6 +91,12 @@
   color: $grey;
 }
 
+.col-rates {
+  @include bp-max-width($medium) {
+    margin: 0 -5.5%;
+  }
+}
+
 .rates-wrapper {
   padding: 36px 20px;
   background: $blue;
@@ -91,6 +105,9 @@
 
   @include bp-min-width($medium) {
     border-radius: 30px;
+  }
+
+  @include bp-min-width($xlarge) {
     margin-right: -20px;
   }
 }
@@ -113,12 +130,12 @@
 
 .home-pricing .plan-features {
   @include font-size(19px);
+  @include line-height(36px);
   margin-top: 12px;
   font-weight: $med;
 
   @include bp-min-width($medium) {
     @include font-size(21px);
-    @include line-height(36px);
   }
 }
 
