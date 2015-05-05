@@ -1,6 +1,6 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/header.php'; ?>
 
-  <section class="hero home-hero">
+  <section class="hero hero-blue home-hero">
     <div class="wrapper">
       <h1>Raise More. Keep More.</h1>
       <p>Easy and effective online fundraising pages that make donors want to give more. Low fees that allow you to keep more of what you raise.</p>

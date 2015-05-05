@@ -53,6 +53,12 @@
   font-weight: $med;
 }
 
+.logo-grid {
+  @include bp-min-width($large) {
+    padding-top: $base;
+  }
+}
+
 .logo-grid li {
   float: left;
   width: 50%;
@@ -64,3 +70,12 @@
     width: 33.333%;
   }
 }
+
+.logo-grid li:nth-child(5),
+.logo-grid li:nth-child(6) {
+  @include bp-min-max($medium, $large) {
+    margin-bottom: 0;
+  }
+}
+
+

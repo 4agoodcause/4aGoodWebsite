@@ -79,15 +79,12 @@ body {
   color: #5b5f60;
 }
 
-h1, h2, h3, h4, h5 {
-  line-height: 1;
-}
-
 h1 {
   font-size: 36px;
   font-size: 2.25rem;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-weight: 700;
+  line-height: 1;
 }
 @media (min-width: 43.75em) {
   h1 {
@@ -101,6 +98,7 @@ h2 {
   font-size: 1.3125rem;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-weight: 700;
+  line-height: 1;
 }
 @media (min-width: 43.75em) {
   h2 {
@@ -112,8 +110,15 @@ h2 {
 h3 {
   font-size: 19px;
   font-size: 1.1875rem;
+  color: #24292b;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-weight: 700;
+}
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 21px;
+    font-size: 1.3125rem;
+  }
 }
 
 h4 {
@@ -141,9 +146,24 @@ em {
   font-style: italic;
 }
 
+.center {
+  text-align: center;
+}
+
 .section-title {
   margin-bottom: 24px;
   color: #006699;
+}
+
+.section-title-center {
+  margin-bottom: 24px;
+  color: #006699;
+  text-align: center;
+}
+@media (min-width: 43.75em) {
+  .section-title-center {
+    margin-bottom: 48px;
+  }
 }
 
 .label {
@@ -278,8 +298,13 @@ em {
   }
 }
 
+@media (max-width: 43.687em) {
+  [class^='col-'] {
+    margin-bottom: 24px;
+  }
+}
 @media (min-width: 43.75em) {
-  [class*='col-'] {
+  [class^='col-'] {
     float: left;
     padding: 0 20px;
   }
@@ -691,9 +716,16 @@ td, th {
 }
 
 .hero {
+  text-align: center;
+}
+
+.hero-blue {
   background: #006699;
   color: #fff;
-  text-align: center;
+}
+
+.hero-white {
+  border-top: 1px solid #e9e9e9;
 }
 
 .hero .wrapper {
@@ -714,7 +746,6 @@ td, th {
   margin: 0 auto;
   font-size: 17px;
   font-size: 1.0625rem;
-  color: #fff;
 }
 .hero p:not(:last-child) {
   margin-bottom: 24px;
@@ -724,6 +755,10 @@ td, th {
     font-size: 19px;
     font-size: 1.1875rem;
   }
+}
+
+.hero-white h1 {
+  color: #006699;
 }
 
 .section-testimonals {
@@ -797,6 +832,12 @@ td, th {
   font-weight: 500;
 }
 
+@media (min-width: 62.5em) {
+  .logo-grid {
+    padding-top: 24px;
+  }
+}
+
 .logo-grid li {
   float: left;
   width: 50%;
@@ -807,6 +848,13 @@ td, th {
 @media (min-width: 62.5em) {
   .logo-grid li {
     width: 33.333%;
+  }
+}
+
+@media (min-width: 43.75em) and (max-width: 62.437em) {
+  .logo-grid li:nth-child(5),
+  .logo-grid li:nth-child(6) {
+    margin-bottom: 0;
   }
 }
 
@@ -978,6 +1026,174 @@ td, th {
   }
 }
 
+.section-pricing-plans .wrapper {
+  padding: 0 0 36px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.section-pricing-plans .col {
+  text-align: center;
+}
+@media (max-width: 43.687em) {
+  .section-pricing-plans .col:not(:last-child) {
+    margin-bottom: 36px;
+  }
+}
+@media (min-width: 43.75em) {
+  .section-pricing-plans .col {
+    float: left;
+    width: 33.333%;
+    padding: 0 5px;
+  }
+}
+@media (min-width: 62.5em) {
+  .section-pricing-plans .col {
+    padding: 0 2.5%;
+  }
+}
+
+.col-best-value .plan-info {
+  background: #eff7fb;
+}
+
+.plan-info {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 36px 10px;
+  background: #f8f8f8;
+  border: 1px solid #e9e9e9;
+}
+
+.plan-label {
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  top: -16px;
+  background: #3399cc;
+  width: 200px;
+  padding: 4px 0;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.plan-title {
+  position: relative;
+  color: #24292b;
+  font-weight: 500;
+}
+.plan-title:after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 2px;
+  margin: 24px auto;
+  background: #b7bbbc;
+}
+
+.plan-price {
+  font-size: 48px;
+  font-size: 3rem;
+  margin-bottom: 24px;
+  color: #24292b;
+  line-height: 1;
+}
+@media (min-width: 43.75em) and (max-width: 62.437em) {
+  .plan-price {
+    font-size: 36px;
+    font-size: 2.25rem;
+  }
+}
+.plan-price .per-month {
+  font-size: 21px;
+  font-size: 1.3125rem;
+}
+
+.plan-info .transaction-rates {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  color: #838687;
+}
+
+.plan-info .caption {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-bottom: 24px;
+  color: #838687;
+}
+
+@media (min-width: 43.75em) and (max-width: 62.437em) {
+  .plan-info .btn {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    min-width: 0;
+    /*     padding: 0.7em 1.25em; */
+  }
+}
+
+.plan-features h4 {
+  margin-bottom: 12px;
+}
+
+.plan-features li {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  color: #838687;
+}
+
+.plan-features-plus li {
+  margin-bottom: 24px;
+}
+
+.pricing-additional-features h3 {
+  margin-bottom: 12px;
+}
+
+.pricing-additional-features p:first-of-type {
+  margin-bottom: 12px;
+}
+
+.pricing-additional-features .feature-cost {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  color: #24292b;
+}
+
+.pricing-additional-features .caption {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: #838687;
+}
+
+.pricing-questions {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.pricing-questions .wrapper {
+  padding-bottom: 24px;
+}
+
+.pricing-questions .col-1-2 {
+  margin-bottom: 24px;
+}
+@media (min-width: 43.75em) {
+  .pricing-questions .col-1-2 {
+    margin-bottom: 36px;
+  }
+}
+@media (min-width: 43.75em) {
+  .pricing-questions .col-1-2:nth-child(2n+1) {
+    clear: left;
+  }
+}
+
+.pricing-questions h4 {
+  margin-bottom: 12px;
+  color: #24292b;
+}
+
 /* @import "pages/style-guide"; */
 .header {
   *zoom: 1;
@@ -1053,7 +1269,7 @@ td, th {
     font-size: 17px;
     font-size: 1.0625rem;
     display: block;
-    background: #339900;
+    background: #3399cc;
     color: #fff;
     padding: 20px;
     box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
@@ -1088,9 +1304,12 @@ td, th {
 }
 
 .header .btn-mobile {
+  font-size: 15px;
+  font-size: 0.9375rem;
   float: right;
   min-width: 0;
   padding: 0.5em 1.5em;
+  background: #3399cc;
 }
 @media (min-width: 62.5em) {
   .header .btn-mobile {
@@ -1155,7 +1374,7 @@ td, th {
   color: #fff;
 }
 .footer a:hover {
-  color: #8dc9e8;
+  color: #eff7fb;
 }
 
 .footer-top {
