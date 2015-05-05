@@ -15,7 +15,7 @@
           </div>
           
           <nav class="footer-nav">
-            <div class="col-1-3">
+            <div class="col">
               <h4>Connect</h4>
               <ul>
                 <li><a href="">Twitter</a></li>
@@ -24,7 +24,7 @@
                 <li><a href="">Email Updates</a></li>
               </ul>
             </div>
-            <div class="col-1-3">
+            <div class="col">
               <h4>Company</h4>
               <ul>
                 <li><a href="">About</a></li>
@@ -34,7 +34,7 @@
                 <li><a href="">Contact Us</a></li>
               </ul>
             </div>
-            <div class="col-1-3">
+            <div class="col">
               <h4>Payments</h4>
               <ul>
                 <li><a href="">Features</a></li>

@@ -32,7 +32,12 @@
 }
 
 .footer-co-info {
-  float: left;
+  @include cf;
+  margin-bottom: $base;
+  
+  @include bp-min-width($medium) {
+    float: left;
+  }
 }
 
 .footer-co-info .footer-logo {
@@ -49,7 +54,31 @@
 }
 
 .footer-nav {
-  float: right;
+  @include bp-min-width($medium) {
+    float: right;
+    width: 66.666%;
+  }
+  
+  @include bp-min-width($large) {
+    width: 50%;
+  }
+}
+
+.footer-nav .col {
+  @include bp-min-width($xsmall) {
+    float: left;
+    width: 33.333%;
+  }
+}
+
+.footer-nav .col:not(:last-child) {
+  @include bp-max-width($xsmall) {
+    margin-bottom: $base;
+  }
+}
+
+.footer-nav h4 {
+  margin-bottom: 16px;
 }
 
 .footer-nav a {
