@@ -1205,6 +1205,11 @@ td, th {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media (min-width: 43.75em) {
+  .section-features-list .wrapper {
+    padding-bottom: 36px;
+  }
+}
 
 .section-features-list .col-1-2 {
   margin-bottom: 24px;
@@ -1220,6 +1225,10 @@ td, th {
   .section-features-list .col-1-2:nth-child(2n+1) {
     clear: left;
   }
+}
+
+.section-features-list .col-1-2:last-child {
+  margin-bottom: 0;
 }
 
 .section-features-list h3 {

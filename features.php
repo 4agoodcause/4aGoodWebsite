@@ -90,20 +90,20 @@
           <p>With our SSL security, certified PCI compliance and weekly vulnerability scanning audits your donors are kept safe and secure.</p>
         </div>
         <div class="col-1-2">
-          <h3>Social sharing</h3>
-          <p>Multiply the impact of a gift with easy social media sharing tools that allow donors to tell friends and family, on Facebook and other sites, why they are supporting you.</p>
+          <h3>Personal, friendly service</h3>
+          <p>When you join our family of good causes, you'll get fast, personal customer service from a real person whenever you need it.</p>
         </div>
         <div class="col-1-2">
-          <h3>Monthly giving</h3>
-          <p>Sustain your organization with automated, recurring donations. Our monthly giving pages and administration tools make it easy.</p>
+          <h3>Third-party integration</h3>
+          <p>Save time and effort by connecting your payment page to third-party systems such as Salesforce, Quickbooks, MailChimp, and others.</p>
         </div>
         <div class="col-1-2">
-          <h3>Payment tools</h3>
-          <p>Accept payments anywhere - online, over the phone and in-person - with our payment pages, virtual terminal, a mobile app and other payment tools.</p>
+          <h3>Test messaging</h3>
+          <p>Launch text-to-donate campaigns, enhance your event fundraising, mobilize volunteers and more with our mobile marketing platform.</p>
         </div>
         <div class="col-1-2">
-          <h3>Safe and secure</h3>
-          <p>With our SSL security, certified PCI compliance and weekly vulnerability scanning audits your donors are kept safe and secure.</p>
+          <h3>Matching gifts</h3>
+          <p>Increase the amount of money you raise from matching gift programs. Provide your donors with everything they need to submit match requests to their employers. Powered by Double the Donation.</p>
         </div>
       </div>
     </div>
