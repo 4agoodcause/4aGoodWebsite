@@ -158,12 +158,14 @@ em {
 }
 
 .section-title-center {
+  line-height: 30px;
+  line-height: 1.875rem;
   margin-bottom: 24px;
   color: #006699;
-  text-align: center;
 }
 @media (min-width: 43.75em) {
   .section-title-center {
+    text-align: center;
     margin-bottom: 48px;
   }
 }
@@ -309,6 +311,12 @@ em {
   [class^='col-'] {
     float: left;
     padding: 0 20px;
+  }
+}
+
+@media (min-width: 43.75em) {
+  .col-right {
+    float: right;
   }
 }
 
@@ -839,16 +847,22 @@ td, th {
   margin-bottom: 24px;
 }
 
+@media (min-width: 43.75em) {
+  .col-content p + h3 {
+    margin-top: 48px;
+  }
+}
+
 @media (min-width: 75em) {
   .col-content-left {
-    padding-right: 5.15%;
+    padding-right: 6.75%;
     padding-top: 48px;
   }
 }
 
 @media (min-width: 75em) {
   .col-content-right {
-    padding-left: 5.15%;
+    padding-left: 6.75%;
     padding-top: 48px;
   }
 }
@@ -1026,15 +1040,18 @@ td, th {
 }
 
 .home-pricing .plan-features {
+  margin-top: 12px;
+}
+
+.home-pricing .plan-features li {
   font-size: 19px;
   font-size: 1.1875rem;
   line-height: 36px;
   line-height: 2.25rem;
-  margin-top: 12px;
   font-weight: 500;
 }
 @media (min-width: 43.75em) {
-  .home-pricing .plan-features {
+  .home-pricing .plan-features li {
     font-size: 21px;
     font-size: 1.3125rem;
   }
@@ -1143,15 +1160,14 @@ td, th {
     font-size: 15px;
     font-size: 0.9375rem;
     min-width: 0;
-    /*     padding: 0.7em 1.25em; */
   }
 }
 
-.plan-features h4 {
+.section-pricing-plans .plan-features h4 {
   margin-bottom: 12px;
 }
 
-.plan-features li {
+.section-pricing-plans .plan-features li {
   font-size: 15px;
   font-size: 0.9375rem;
   color: #838687;
@@ -1208,6 +1224,11 @@ td, th {
   color: #24292b;
 }
 
+.hero-features {
+  background: url('/assets/images/hero-features.jpg?1430942173') no-repeat center center;
+  background-size: cover;
+}
+
 .section-features-list {
   background: #fffaea;
 }
@@ -1235,6 +1256,18 @@ td, th {
 
 .section-features-list h3 {
   margin-bottom: 6px;
+}
+
+@media (min-width: 75em) {
+  .section-feature-02 .col-browser-shots {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 75em) {
+  .section-feature-03 .col-graphs {
+    padding-left: 0;
+  }
 }
 
 /* @import "pages/style-guide"; */

@@ -82,11 +82,12 @@ em {
 }
 
 .section-title-center {
+  @include line-height(30px);
   margin-bottom: $base;
   color: $blue;
-  text-align: center;
 
   @include bp-min-width($medium) {
+    text-align: center;
     margin-bottom: $base*2;
   }
 }

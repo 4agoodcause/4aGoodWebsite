@@ -92,15 +92,14 @@
   @include bp-min-max($medium, $large) {
     @include font-size(15px);
     min-width: 0;
-/*     padding: 0.7em 1.25em; */
   }
 }
 
-.plan-features h4 {
+.section-pricing-plans .plan-features h4 {
   margin-bottom: 12px;
 }
 
-.plan-features li {
+.section-pricing-plans .plan-features li {
   @include font-size(15px);
   color: $grey;
 }

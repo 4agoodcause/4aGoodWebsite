@@ -129,13 +129,17 @@
 }
 
 .home-pricing .plan-features {
+  margin-top: 12px;
+}
+
+.home-pricing .plan-features li {
   @include font-size(19px);
   @include line-height(36px);
-  margin-top: 12px;
   font-weight: $med;
 
   @include bp-min-width($medium) {
     @include font-size(21px);
   }
 }
+
 

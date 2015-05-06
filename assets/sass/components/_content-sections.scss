@@ -3,16 +3,22 @@
   margin-bottom: $base;
 }
 
+.col-content p + h3 {
+  @include bp-min-width($medium) {
+    margin-top: $base*2;
+  }
+}
+
 .col-content-left {
   @include bp-min-width($xlarge) {
-    padding-right: 5.15%;
+    padding-right: 6.75%;
     padding-top: $base*2;
   }
 }
 
 .col-content-right {
   @include bp-min-width($xlarge) {
-    padding-left: 5.15%;
+    padding-left: 6.75%;
     padding-top: $base*2;
   }
 }

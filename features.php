@@ -1,6 +1,6 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/header.php'; ?>
 
-  <section class="hero hero-blue">
+  <section class="hero hero-blue hero-features">
     <div class="wrapper">
       <h1>Unlimited, mobile-friendly fundraising</h1>
       <p>No annual contracts, no set up fees, no monthly minimums, no early termination fees.</p>
@@ -26,14 +26,14 @@
     <div class="wrapper">
       <h2 class="section-title-center">Payment pages with no limits</h2>
       <div class="row">
-        <div class="col-1-2 col-devices col-devices-left">
-          <img src="assets/images/browser-shots-01.jpg" alt="">
-        </div>
         <div class="col-1-2 col-content col-content-right">
           <h3>As many payment pages as you need</h3>
           <p>Receive unlimited payment pages for one flat monthly fee. We'll do all the work to set up your first page and there are no fees when you need additional payment pages or changes to your existing pages.</p>
           <h3>Take payment for almost any purpose</h3>
           <p>Receive access to more payment page options than any other provider. Accept payments for online donations, event registration, membership, program fees, tuition, products sales, and more.</p>
+        </div>
+        <div class="col-1-2 col-browser-shots col-right">
+          <img src="assets/images/browser-shots-01.jpg" alt="">
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@
           <h3>Real-time email alerts</h3>
           <p>Never miss a donation or membership payment with our automated email alerts that deliver all of the transaction details right to your inbox.</p>
         </div>
-        <div class="col-1-2 col-devices col-devices-right">
+        <div class="col-1-2 col-graphs">
           <img src="assets/images/graphs-01.png" alt="">
         </div>
       </div>
@@ -59,12 +59,12 @@
   <section class="section-feature-04">
     <div class="wrapper">
       <div class="row">
-        <div class="col-1-2 col-devices col-devices-left">
-          <img src="assets/images/devices-03.jpg" alt="">
-        </div>
-        <div class="col-1-2 col-content col-content-right">
+        <div class="col-1-2 col-content col-content-right col-right">
           <h2 class="section-title">Expand your fundraising with peer-to-peer giving</h2>
           <p>Empower your constituents to fundraise on your behalf or build your own crowd-raising fundraising pages with your very-own peer-to-peer giving microsite. Built to match your brand, this destination website becomes the fundraising platform for all your supporters.</p>
+        </div>
+        <div class="col-1-2 col-devices col-devices-left">
+          <img src="assets/images/devices-03.jpg" alt="">
         </div>
       </div>
     </div>

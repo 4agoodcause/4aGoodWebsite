@@ -1,4 +1,9 @@
 
+.hero-features {
+  background: $hero-features no-repeat center center;
+  background-size: cover;
+}
+
 .section-features-list {
   background: $creme;
 }
@@ -24,4 +29,16 @@
 
 .section-features-list h3 {
   margin-bottom: 6px;
+}
+
+.section-feature-02 .col-browser-shots {
+  @include bp-min-width($xlarge) {
+    padding-right: 0;
+  }
+}
+
+.section-feature-03 .col-graphs {
+  @include bp-min-width($xlarge) {
+    padding-left: 0;
+  }
 }

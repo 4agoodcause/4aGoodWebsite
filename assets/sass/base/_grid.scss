@@ -18,6 +18,12 @@ $pad: 20px;
   }
 }
 
+.col-right {
+  @include bp-min-width($medium) {
+    float: right;
+  }
+}
+
 .col-3-4 {
   @include bp-min-width($medium) {
     width: 75%;
