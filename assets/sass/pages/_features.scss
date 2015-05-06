@@ -1,0 +1,27 @@
+
+.section-features-list {
+  background: $creme;
+}
+
+.section-features-list .wrapper {
+  @include max-10-col;  
+}
+
+.section-features-list .col-1-2 {
+  margin-bottom: $base;
+  
+  @include bp-min-width($medium) {
+    margin-bottom: $base*1.5;
+    padding: 0 40px;
+  }
+}
+
+.section-features-list .col-1-2:nth-child(2n+1) {
+  @include bp-min-width($medium) {
+    clear: left;
+  }
+}
+
+.section-features-list h3 {
+  margin-bottom: 6px;
+}

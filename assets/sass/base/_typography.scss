@@ -76,6 +76,7 @@ em {
 }
 
 .section-title {
+  @include line-height(30px);
   margin-bottom: $base;
   color: $blue;
 }

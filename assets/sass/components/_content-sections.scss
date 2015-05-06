@@ -1,0 +1,33 @@
+
+.col-content p:first-of-type {
+  margin-bottom: $base;
+}
+
+.col-content-left {
+  @include bp-min-width($xlarge) {
+    padding-right: 5.15%;
+    padding-top: $base*2;
+  }
+}
+
+.col-content-right {
+  @include bp-min-width($xlarge) {
+    padding-left: 5.15%;
+    padding-top: $base*2;
+  }
+}
+
+.col-devices-right img {
+  @include bp-min-width($xlarge) {
+    float: right;
+    margin-right: -26px;
+  }
+}
+.col-content h3 {
+  @include font-size(17px);
+  margin-bottom: 6px;
+
+  @include bp-min-width($medium) {
+    @include font-size(19px);
+  }
+}
