@@ -21,10 +21,10 @@
           </div>
 
           <nav class="nav">
-            <a href="" class="btn btn-mobile">Menu</a>
+            <a href="./" class="btn btn-mobile">Menu</a>
             <ul class="nav-links">
-              <li><a href="">Features</a></li>
-              <li><a href="">Pricing</a></li>
+              <li><a href="features.php">Features</a></li>
+              <li><a href="pricing.php">Pricing</a></li>
               <li><a href="">Customers</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Blog</a></li>
