@@ -233,9 +233,8 @@ svg:not(:root) {
 }
 */
 .icon-arrow {
-  width: 10px;
-  height: 15px;
-  fill: #339900;
+  width: 18px;
+  fill: #24292b;
 }
 
 .icon-email {

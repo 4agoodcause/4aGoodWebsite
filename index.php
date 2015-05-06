@@ -26,7 +26,7 @@
         <div class="col-1-2 col-content col-content-left">
           <h2 class="section-title">Payment Pages for All Devices</h2>
           <p>With more than half of online traffic coming from mobile, you need to meet your donors wherever they are. From smartphones to tablets and beyond, your donors need an easy giving experience. Boost donations, event registrations and more with our responsive design templates.</p>
-          <p><a href="" class="cta-link">Learn More</a></p>
+          <p><a href="" class="cta-link">Learn More <svg class="icon-arrow"><use xlink:href="#icon-arrow" /></svg></a></p>
         </div>
         <div class="col-1-2 col-devices col-devices-right">
           <img src="assets/images/devices-01.jpg" alt="">
