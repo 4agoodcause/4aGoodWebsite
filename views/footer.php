@@ -7,10 +7,10 @@
             <p class="footer-logo"><a href="/"><img src="/assets/images/logo-white.png" alt="4aGoodCause"></a></p>
             <p class="footer-phone">770-517-5962</p>
             <ul class="footer-social">
-              <li><a href="">Tw</a></li>
-              <li><a href="">Fb</a></li>
-              <li><a href="">Li</a></li>
-              <li><a href="">Em</a></li>
+              <li><a href=""><svg class="icon-facebook"><use xlink:href="#icon-facebook" /></svg></a></li>
+              <li><a href=""><svg class="icon-twitter"><use xlink:href="#icon-twitter" /></svg></a></li>
+              <li><a href=""><svg class="icon-linkedin"><use xlink:href="#icon-linkedin" /></svg></a></li>
+              <li><a href=""><svg class="icon-email"><use xlink:href="#icon-email" /></svg></a></li>
             </ul>
           </div>
           
@@ -55,6 +55,7 @@
       </div>
       
     </footer>
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/svg.php'; ?>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="/assets/js/scripts.js"></script>

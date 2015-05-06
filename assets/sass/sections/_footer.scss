@@ -53,6 +53,12 @@
   margin-right: 10px;
 }
 
+.footer-social [class^="icon-"] {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
 .footer-nav {
   @include bp-min-width($medium) {
     float: right;
