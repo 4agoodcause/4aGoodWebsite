@@ -1,0 +1,121 @@
+
+.hero-about {
+  background: $blue $hero-about no-repeat center center;
+  background-size: auto 100%;
+}
+
+.section-our-promise .section-title {
+  @include bp-min-width($medium) {
+    margin-bottom: $base*2;
+  }
+}
+
+.section-our-promise li {
+  @include font-size(19px);
+  font-family: $goth;
+  color: $black;
+  background: $icon-checkmark no-repeat 0 0;
+
+  @include bp-min-width($medium) {
+    @include font-size(24px);
+    padding-top: 4px;
+    padding-left: 60px;
+  }
+}
+
+.section-our-promise li:not(:last-child) {
+  padding-bottom: $base;
+
+  @include bp-min-width($medium) {
+    padding-bottom: $base*1.5;
+  }
+}
+
+.section-founder {
+  background: $lt-green;
+  color: #fff;
+}
+
+.section-founder .wrapper {
+  position: relative;
+}
+
+.col-founder-image {
+  @include vertical-center(absolute);
+  left: 0;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.col-founder-bio {
+  padding-left: 314px;
+}
+
+.col-founder-bio h3 {
+  margin-bottom: 12px;
+  color: #fff;
+  
+  .founder-title {
+    @include font-size(15px);
+    margin-left: 6px;
+    font-family: $goth-ss;
+    font-weight: $book;
+    font-style: italic;
+  }
+}
+
+.col-founder-bio p:first-of-type {
+  margin-bottom: $base;
+}
+
+.col-founder-bio a {
+  color: #fff;
+  font-weight: $med;
+}
+
+.col-founder-bio .icon-arrow {
+  fill: #fff;
+}
+
+.section-partners .partner-logo {
+  margin-bottom: $base;
+}
+
+.section-partners h3 {
+  @include font-size(19px);
+  margin-bottom: 12px;
+}
+
+.featured-partner {
+  @include max-8-col;
+  margin-bottom: $base*2;
+  text-align: center;
+}
+
+.partner-list {
+  text-align: center;
+}
+
+.partner-list .col-1-3 {
+  margin-bottom: $base*2;
+  
+  &:nth-child(3n+1) {
+    clear: left;
+  }
+}
+
+.partner-list .partner-logo {
+  position: relative;
+  width: 100%;
+  height: 114px;
+  
+  img {
+    @include absolute-center;
+  }
+}
+
+
+
+
