@@ -1,0 +1,82 @@
+
+.hero-customers h1 {
+  @include max-8-col;
+  @include font-size(32px);
+  @include line-height(42px);
+}
+
+.client-list .col-1-4 {
+  margin-bottom: $base;
+  
+  @include bp-min-max($medium, $xlarge) {
+    width: 33.333%;
+  }
+  
+  @include bp-min-width($medium) {
+    margin-bottom: $base*1.5;
+  }
+}
+
+.client-list .col-wrap {
+  position: relative;
+  width: 100%;
+  height: $base*10;
+  border: 1px solid $xlt-grey;
+}
+
+.client-list .client-logo {
+  @include vertical-center(relative);
+  width: 100%;
+  text-align: center;
+}
+
+.client-list .hover-overlay {
+  @include global-transition;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba($blue,0.9);
+  text-align: center;
+}
+
+.client-list .col-wrap:hover .hover-overlay {
+  opacity: 1;
+}
+
+.client-teaser {
+  @include vertical-center(absolute);
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.client-teaser h3 {
+  color: #fff;
+  margin-bottom: $base;
+}
+
+.customers-testimonials {
+  border-bottom: 1px solid $xlt-grey;
+}
+
+.customers-testimonials .wrapper {
+  padding-top: 0;
+}
+
+.customers-testimonials .testimonial {
+  @include max-8-col;
+}
+
+.customers-testimonials .testimonial:not(:last-child) {
+  margin-bottom: $base*1.5;
+  
+  @include bp-min-width($medium) {
+    margin-bottom: $base*3;
+  }
+}
+
+
+

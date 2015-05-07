@@ -82,7 +82,8 @@ body {
 h1 {
   font-size: 27px;
   font-size: 1.6875rem;
-  line-height: 1;
+  line-height: 32px;
+  line-height: 2rem;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-weight: 700;
 }
@@ -90,14 +91,15 @@ h1 {
   h1 {
     font-size: 48px;
     font-size: 3rem;
+    line-height: 1;
   }
 }
 
 h2 {
   font-size: 24px;
   font-size: 1.5rem;
-  line-height: 30px;
-  line-height: 1.875rem;
+  line-height: 27px;
+  line-height: 1.6875rem;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-weight: 700;
 }
@@ -109,8 +111,8 @@ h2 {
 }
 
 h3 {
-  font-size: 19px;
-  font-size: 1.1875rem;
+  font-size: 17px;
+  font-size: 1.0625rem;
   color: #24292b;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-weight: 700;
@@ -670,6 +672,15 @@ td, th {
   }
 }
 
+.hero-white .wrapper {
+  padding: 48px 0 0;
+}
+@media (min-width: 43.75em) {
+  .hero-white .wrapper {
+    padding: 72px 0 0;
+  }
+}
+
 .hero h1:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -1014,7 +1025,6 @@ td, th {
 }
 
 .section-pricing-plans .wrapper {
-  padding: 0 0 36px;
   border-bottom: 1px solid #e9e9e9;
 }
 
@@ -1447,6 +1457,96 @@ td, th {
     position: absolute;
     top: 50%;
     left: 50%;
+  }
+}
+
+.hero-customers h1 {
+  max-width: 792px;
+  margin: 0 auto;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 42px;
+  line-height: 2.625rem;
+}
+
+.client-list .col-1-4 {
+  margin-bottom: 24px;
+}
+@media (min-width: 43.75em) and (max-width: 74.937em) {
+  .client-list .col-1-4 {
+    width: 33.333%;
+  }
+}
+@media (min-width: 43.75em) {
+  .client-list .col-1-4 {
+    margin-bottom: 36px;
+  }
+}
+
+.client-list .col-wrap {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  border: 1px solid #e9e9e9;
+}
+
+.client-list .client-logo {
+  transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.client-list .hover-overlay {
+  transition: all 0.15s ease-in;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 102, 153, 0.9);
+  text-align: center;
+}
+
+.client-list .col-wrap:hover .hover-overlay {
+  opacity: 1;
+}
+
+.client-teaser {
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.client-teaser h3 {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.customers-testimonials {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.customers-testimonials .wrapper {
+  padding-top: 0;
+}
+
+.customers-testimonials .testimonial {
+  max-width: 792px;
+  margin: 0 auto;
+}
+
+.customers-testimonials .testimonial:not(:last-child) {
+  margin-bottom: 36px;
+}
+@media (min-width: 43.75em) {
+  .customers-testimonials .testimonial:not(:last-child) {
+    margin-bottom: 72px;
   }
 }
 

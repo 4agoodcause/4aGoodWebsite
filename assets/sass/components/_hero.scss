@@ -20,6 +20,14 @@
   }
 }
 
+.hero-white .wrapper {
+  padding: $base*2 0 0;
+
+  @include bp-min-width($medium) {
+    padding: $base*3 0 0;
+  }
+}
+
 .hero h1:not(:last-child) {
   margin-bottom: $base;
 }
