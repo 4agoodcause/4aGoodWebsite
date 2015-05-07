@@ -12,34 +12,14 @@ svg:not(:root) {
   vertical-align: middle;
 }
 
-/*
-.icon-facebook {
-  width: 36px;
-  height: 36px;
-  fill: #fff;
-}
-*/
-
 .icon-arrow {
   width: 18px;
   height: 11px;
   fill: $black;
 }
 
-.icon-email {
-  width: 30px;
-  height: 32px;
-  fill: $yellow;
-}
-
-.icon-social {
-  width: 32px;
-  height: 32px;
-  fill: $yellow;
-}
-
-.icon-close {
-  width: 24px;
-  height: 24px;
-  fill: $black;
+.icon-checkmark {
+  width: 36px;
+  height: 29px;
+  fill: $lt-green;
 }

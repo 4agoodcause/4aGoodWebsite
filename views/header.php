@@ -26,7 +26,7 @@
               <li><a href="features.php">Features</a></li>
               <li><a href="pricing.php">Pricing</a></li>
               <li><a href="">Customers</a></li>
-              <li><a href="">About</a></li>
+              <li><a href="about.php">About</a></li>
               <li><a href="">Blog</a></li>
             </ul>
             <a href="" class="btn btn-demo">Request a Demo</a>

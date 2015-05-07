@@ -7,6 +7,8 @@
   @include font-size(17px);
   position: relative;
   margin-bottom: 16px;
+  color: $black;
+  font-family: $goth;
   font-style: italic;
   
   @include bp-max-width($xlarge) {
@@ -16,6 +18,7 @@
   @include bp-min-width($medium) {
     @include font-size(21px);
     @include line-height(30px);
+    padding-right: 2%;
   }
 }
 

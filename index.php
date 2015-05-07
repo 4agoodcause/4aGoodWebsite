@@ -60,7 +60,7 @@
     </div>
   </section>
   
-    <section class="home-testimonials section-testimonals">
+  <section class="home-testimonials section-testimonals">
     <div class="wrapper">
       <div class="row">
         <div class="col-1-2">

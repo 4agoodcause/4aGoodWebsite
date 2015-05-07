@@ -225,35 +225,16 @@ svg:not(:root) {
   vertical-align: middle;
 }
 
-/*
-.icon-facebook {
-  width: 36px;
-  height: 36px;
-  fill: #fff;
-}
-*/
 .icon-arrow {
   width: 18px;
   height: 11px;
   fill: #24292b;
 }
 
-.icon-email {
-  width: 30px;
-  height: 32px;
-  fill: #ffcc33;
-}
-
-.icon-social {
-  width: 32px;
-  height: 32px;
-  fill: #ffcc33;
-}
-
-.icon-close {
-  width: 24px;
-  height: 24px;
-  fill: #24292b;
+.icon-checkmark {
+  width: 36px;
+  height: 29px;
+  fill: #99cc66;
 }
 
 @media (min-width: 43.75em) {
@@ -723,6 +704,8 @@ td, th {
   font-size: 1.0625rem;
   position: relative;
   margin-bottom: 16px;
+  color: #24292b;
+  font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   font-style: italic;
 }
 @media (max-width: 74.937em) {
@@ -736,6 +719,7 @@ td, th {
     font-size: 1.3125rem;
     line-height: 30px;
     line-height: 1.875rem;
+    padding-right: 2%;
   }
 }
 
@@ -1245,6 +1229,91 @@ td, th {
   .section-feature-03 .col-graphs {
     padding-left: 0;
   }
+}
+
+.hero-about {
+  background: #006699 url('/assets/images/hero-about.jpg?1430954686') no-repeat center center;
+  background-size: auto 100%;
+}
+
+@media (min-width: 43.75em) {
+  .section-our-promise .section-title {
+    margin-bottom: 48px;
+  }
+}
+
+.section-our-promise li {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
+  color: #24292b;
+  background: url('/assets/images/icon-checkmark.svg?1430957053') no-repeat 0 0;
+}
+@media (min-width: 43.75em) {
+  .section-our-promise li {
+    font-size: 24px;
+    font-size: 1.5rem;
+    padding-top: 4px;
+    padding-left: 60px;
+  }
+}
+
+.section-our-promise li:not(:last-child) {
+  padding-bottom: 24px;
+}
+@media (min-width: 43.75em) {
+  .section-our-promise li:not(:last-child) {
+    padding-bottom: 36px;
+  }
+}
+
+.section-founder {
+  background: #99cc66;
+  color: #fff;
+}
+
+.section-founder .wrapper {
+  position: relative;
+}
+
+.col-founder-image {
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.col-founder-image img {
+  border-radius: 50%;
+}
+
+.col-founder-bio {
+  padding-left: 314px;
+}
+
+.col-founder-bio h3 {
+  margin-bottom: 12px;
+  color: #fff;
+}
+.col-founder-bio h3 .founder-title {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  margin-left: 6px;
+  font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.col-founder-bio p:first-of-type {
+  margin-bottom: 24px;
+}
+
+.col-founder-bio a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.col-founder-bio .icon-arrow {
+  fill: #fff;
 }
 
 /* @import "pages/style-guide"; */
