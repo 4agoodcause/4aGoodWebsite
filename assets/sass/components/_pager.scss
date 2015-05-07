@@ -1,0 +1,32 @@
+
+.post-nav {
+  @include font-size(13px);
+  position: relative;
+  margin-bottom: $base;
+}
+
+.pager {
+  text-align: center;
+}
+
+.pager li {
+  display: inline-block;
+}
+
+.pager a {
+  display: block;
+  padding: 5px 10px;
+}
+
+.older-newer-posts li {
+  position: absolute;
+  top: 0;
+}
+
+.older-newer-posts li:nth-child(1) {
+  left: 0;
+}
+
+.older-newer-posts li:nth-child(2) {
+  right: 0;
+}

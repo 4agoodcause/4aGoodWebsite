@@ -26,6 +26,33 @@ body {
   }
 }
 
+.main .wrapper {
+  position: relative;
+}
+
+.content-left {
+  @include bp-min-width($medium) {
+    padding-right: 312px;
+  }
+
+  @include bp-min-width($large) {
+    padding-right: 416px;
+  }
+}
+
+.sidebar-right {
+  @include bp-min-width($medium) {
+    position: absolute;
+    top: $base*3;
+    right: 0;
+    width: 272px;
+  }
+
+  @include bp-min-width($large) {
+    width: 376px;
+  }
+}
+
 .mobile-visible {
   visibility: visible;
 }

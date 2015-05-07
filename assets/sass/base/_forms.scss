@@ -1,39 +1,13 @@
 
-.form-block {
-  margin-bottom: $base;
-}
-
-.form-item,
-.form-item-set {
+.form-item {
   margin-bottom: 12px;
-
-  &:last-of-type {
-    margin-bottom: 0;
-  }
-}
-
-.form-item-set .form-item {
-  margin-bottom: 0;
-}
-
-.form-two-col {
-  @include cf;
-  
-  .form-item {
-    float: left;
-    width: 42%;
-    margin-right: 4%;
-    
-    @include bp-max-width($xsmall) {
-      float: none;
-      width: 100%;
-      margin-right: 0;
-    }
-  }
 }
 
 label {
   display: block;
+}
+
+.form label {
   margin-bottom: 4px;
 }
 
@@ -42,10 +16,10 @@ input[type="email"],
 input[type="password"],
 textarea {
   width: 100%;
-  padding: 12px 16px;
+  padding: 0.75em 1em;
   border: 1px solid $grey;
   outline: none;
-  font: 400 1em/1em $goth-ss;
+  font: $book 0.875em/1em $goth-ss;
 }
 
 input[type="text"]:focus,
@@ -197,6 +171,33 @@ input[type="checkbox"] {
 .form-radio {
   label, input {
     display: inline-block;
+  }
+}
+
+
+/** Label Overlay Input ============**/
+
+.form-input-wrap {
+  position: relative;
+  height: 42px;
+  background: #fff;
+}
+
+.form-input-wrap label {
+  @include font-size(15px);
+  padding: 0.5em 0 0 1em;
+  color: $grey;
+}
+
+.form-input-wrap input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  
+  &:focus {
+    border: none;
   }
 }
 

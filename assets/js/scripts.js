@@ -12,8 +12,8 @@ $(function(){
   }
 
   var labelFade = function() {
-    var label = $('.form-label-fade label');
-    var input = $('.form-label-fade input');
+    var label = $('.form-input-wrap label');
+    var input = $('.form-input-wrap input');
   
     $(input).on("focus", function(){
       $(this).parent().find(label).fadeOut();

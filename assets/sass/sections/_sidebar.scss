@@ -1,0 +1,18 @@
+
+.sidebar .block {
+  margin-bottom: $base;
+
+  @include bp-min-width($medium) {
+    margin-bottom: $base*1.5;
+  }
+}
+
+.search-form .form-input-wrap {
+  border: 1px solid $lt-grey;
+}
+
+.search-form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

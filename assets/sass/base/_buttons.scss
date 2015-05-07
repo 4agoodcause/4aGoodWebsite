@@ -57,13 +57,19 @@ input[type="button"],
 button {
 	@include global-transition;
 	@include font-size(15px);
-  padding: 0.55em 1.5em;
-  background: $green;
+	height: 42px;
+	padding: 0 1.5em;
+  background: $blue;
   border: none;
+  border-radius: 5px;
   color: #fff;
   font-family: $goth-ss;
   font-weight: $med;
   cursor: pointer;
+  
+  &:hover {
+    background: $dk-blue;
+  }
 }
 
 .cta-link {

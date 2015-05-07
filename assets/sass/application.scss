@@ -16,15 +16,18 @@
 @import "components/hero";
 @import "components/testimonials";
 @import "components/content-sections";
+@import "components/pager";
 
 @import "pages/home";
 @import "pages/pricing";
 @import "pages/features";
 @import "pages/about";
 @import "pages/customers";
+@import "pages/blog";
 /* @import "pages/style-guide"; */
 
 @import "sections/header";
 @import "sections/nav";
 @import "sections/bottom-cta";
+@import "sections/sidebar";
 @import "sections/footer";
