@@ -113,10 +113,19 @@
     </div>
   </section>
   
-  <section class="bottom-cta">
-    <div class="wrapper">
-      <h2>Have questions? Get in touch. We'd love to chat.</h2>
+  <section class="bottom-cta bottom-two-col">
+    <div class="col-1-2">
+      <h2>Get in touch with us</h2>
       <p><a href="" class="btn">Request a Demo</a> <a href="" class="btn btn-outline">Contact Us</a></p>
+    </div>
+    <div class="col-1-2">
+      <h2>Connect with us</h2>
+      <ul class="bottom-social">
+        <li><a href=""><svg class="icon-facebook"><use xlink:href="#icon-facebook" /></svg></a></li>
+        <li><a href=""><svg class="icon-twitter"><use xlink:href="#icon-twitter" /></svg></a></li>
+        <li><a href=""><svg class="icon-linkedin"><use xlink:href="#icon-linkedin" /></svg></a></li>
+        <li><a href=""><svg class="icon-email"><use xlink:href="#icon-email" /></svg></a></li>
+      </ul>
     </div>
   </section>
 

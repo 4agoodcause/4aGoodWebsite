@@ -17,10 +17,10 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  @include font-size(36px);
+  @include font-size(27px);
+  line-height: 1;
   font-family: $goth;
   font-weight: $bold;
-  line-height: 1;
 
   @include bp-min-width($medium) {
     @include font-size(48px);
@@ -28,10 +28,10 @@ h1 {
 }
 
 h2 {
-  @include font-size(21px);
+  @include font-size(24px);
+  @include line-height(30px);
   font-family: $goth;
   font-weight: $bold;
-  line-height: 1;
 
   @include bp-min-width($medium) {
     @include font-size(27px);
@@ -76,13 +76,11 @@ em {
 }
 
 .section-title {
-  @include line-height(30px);
   margin-bottom: $base;
   color: $blue;
 }
 
 .section-title-center {
-  @include line-height(30px);
   margin-bottom: $base;
   color: $blue;
 

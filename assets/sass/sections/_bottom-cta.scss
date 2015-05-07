@@ -4,17 +4,49 @@
 }
 
 .bottom-cta h2 {
-  margin-bottom: $base;
   color: $black;
   font-weight: $book;
 }
 
 .bottom-cta .btn {
-  margin: 0 20px;
+  margin: $base 20px 0;
 }
 
-.bottom-cta .btn:first-child {
-  @include bp-max-width($small) {
-    margin-bottom: $base;
+.bottom-two-col {
+  @include cf;
+}
+
+.bottom-cta .col-1-2 {
+  padding: $base*1.5 20px;
+
+  @include bp-min-width($medium) {
+    padding: $base*3 20px;
+  }
+}
+
+.bottom-cta .col-1-2:first-child {
+  @include bp-max-width($medium) {
+    margin-bottom: 0;
+    border-bottom: 1px solid $xlt-grey;
+  }
+
+  @include bp-min-width($medium) {
+    border-right: 1px solid $xlt-grey;
+  }
+}
+
+.bottom-social li {
+  display: inline-block;
+  margin: $base 10px 0;
+}
+
+.bottom-social [class^="icon-"] {
+  width: 42px;
+  height: 42px;
+  fill: $blue;
+
+  @include bp-min-width($medium) {
+    width: 54px;
+    height: 54px;
   }
 }

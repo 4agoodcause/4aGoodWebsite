@@ -4,6 +4,29 @@
   background-size: auto 100%;
 }
 
+.hero-about h1 {
+  @include max-8-col;
+  @include font-size(21px);
+  @include line-height(24px);
+  font-weight: $book;
+
+  @include bp-min-width($medium) {
+    @include font-size(27px);
+    @include line-height(30px);
+  }
+}
+
+.hero-about p {
+  @include font-size(21px);
+  @include line-height(24px);
+  font-weight: $bold;
+
+  @include bp-min-width($medium) {
+    @include font-size(27px);
+    @include line-height(30px);
+  }
+}
+
 .section-our-promise .section-title {
   @include bp-min-width($medium) {
     margin-bottom: $base*2;
@@ -12,23 +35,21 @@
 
 .section-our-promise li {
   @include font-size(19px);
+  padding-left: 46px;
   font-family: $goth;
   color: $black;
   background: $icon-checkmark no-repeat 0 0;
 
   @include bp-min-width($medium) {
     @include font-size(24px);
-    padding-top: 4px;
+    @include line-height(30px);
+    padding-top: 2px;
     padding-left: 60px;
   }
 }
 
 .section-our-promise li:not(:last-child) {
   padding-bottom: $base;
-
-  @include bp-min-width($medium) {
-    padding-bottom: $base*1.5;
-  }
 }
 
 .section-founder {
@@ -41,30 +62,59 @@
 }
 
 .col-founder-image {
-  @include vertical-center(absolute);
-  left: 0;
+  @include bp-max-width($medium) {
+    float: right;
+    width: 120px;
+    margin: 0 0 10px 10px;
+  }
 
-  img {
-    border-radius: 50%;
+  @include bp-min-max($medium, $large) {
+    float: left;
+    width: 33.333%;
+  }
+
+  @include bp-min-width($large) {
+    @include vertical-center(absolute);
+    left: 0;
   }
 }
 
+.col-founder-image img {
+  border-radius: 50%;
+}
+
 .col-founder-bio {
-  padding-left: 314px;
+  @include bp-min-max($medium, $large) {
+    float: left;
+    width: 66.666%;
+    padding-left: 40px;
+  }
+
+  @include bp-min-width($large) {
+    padding-left: 314px;
+  }
 }
 
 .col-founder-bio h3 {
   margin-bottom: 12px;
   color: #fff;
-  
-  .founder-title {
-    @include font-size(15px);
+}
+
+.col-founder-bio .founder-title {
+  @include font-size(15px);
+  font-family: $goth-ss;
+  font-weight: $book;
+  font-style: italic;
+
+  @include bp-max-width($small) {
+    display: block;
+  }
+
+  @include bp-min-width($small) {
     margin-left: 6px;
-    font-family: $goth-ss;
-    font-weight: $book;
-    font-style: italic;
   }
 }
+
 
 .col-founder-bio p:first-of-type {
   margin-bottom: $base;
@@ -77,6 +127,17 @@
 
 .col-founder-bio .icon-arrow {
   fill: #fff;
+}
+
+.section-partners {
+  @include cf;
+  border-bottom: 1px solid $xlt-grey;
+}
+
+.section-partners .section-title-center {
+  @include bp-max-width($medium) {
+    text-align: center;
+  }
 }
 
 .section-partners .partner-logo {
@@ -107,15 +168,16 @@
 }
 
 .partner-list .partner-logo {
-  position: relative;
-  width: 100%;
-  height: 114px;
-  
-  img {
-    @include absolute-center;
+  @include bp-min-width($medium) {
+    position: relative;
+    width: 100%;
+    height: 114px;
   }
 }
 
-
-
+.partner-list .partner-logo img {
+  @include bp-min-width($medium) {
+    @include absolute-center;
+  }
+}
 
