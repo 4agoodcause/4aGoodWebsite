@@ -1,0 +1,78 @@
+
+.hero-case-study .wrapper {
+  @include bp-min-width($medium) {
+    padding: $base*2 0;
+  }
+}
+
+.hero-case-study .label:not(:last-child) {
+  @include font-size(15px);
+  margin-bottom: 12px;
+}
+
+.case-study .wrapper {
+  @include bp-min-width($medium) {
+    padding-top: $base*2;
+  }
+}
+
+.case-study-info {
+  @include max-8-col;
+  margin-bottom: $base;
+
+  @include bp-min-width($medium) {
+    margin-bottom: $base*2;
+  }
+}
+
+.case-study-images {
+  @include max-10-col;
+}
+
+.case-study-nav {
+  @include cf;
+}
+
+.case-study-nav .col-1-2 {
+  position: relative;
+  display: block;
+  color: #fff;
+  margin-bottom: 0;
+  padding: $base 30px;
+  background: $blue;
+
+  @include bp-min-width($medium) {
+    padding: $base*1.5 30px;
+  }
+}
+
+.case-study-nav a:first-child {
+  text-align: right;
+  padding-left: 40px;
+  
+  [class^="icon-"] {
+    left: 20px;
+  }
+}
+
+.case-study-nav a:nth-child(2) {
+  background: $lt-blue;
+  padding-right: 40px;
+  
+  [class^="icon-"] {
+    right: 20px;
+  }
+}
+
+.case-study-nav .label {
+  @include font-size(13px);
+}
+
+.case-study-nav h3 {
+  color: #fff;
+}
+
+.case-study-nav [class^="icon-"] {
+  @include vertical-center(absolute);
+  fill: #fff;
+}

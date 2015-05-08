@@ -177,11 +177,6 @@ em {
   }
 }
 
-.label {
-  color: #5b5f60;
-  font-weight: 700;
-}
-
 .body h1,
 .body h2,
 .body h3,
@@ -282,6 +277,16 @@ svg:not(:root) {
   width: 18px;
   height: 14px;
   fill: #5b5f60;
+}
+
+.icon-prev {
+  width: 18px;
+  height: 33px;
+}
+
+.icon-next {
+  width: 18px;
+  height: 33px;
 }
 
 @media (min-width: 43.75em) {
@@ -769,8 +774,8 @@ td, th {
 .hero p {
   max-width: 792px;
   margin: 0 auto;
-  font-size: 17px;
-  font-size: 1.0625rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .hero p:not(:last-child) {
   margin-bottom: 24px;
@@ -1662,6 +1667,97 @@ td, th {
   .customers-testimonials .testimonial:not(:last-child) {
     margin-bottom: 72px;
   }
+}
+
+@media (min-width: 43.75em) {
+  .hero-case-study .wrapper {
+    padding: 48px 0;
+  }
+}
+
+.hero-case-study .label:not(:last-child) {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 43.75em) {
+  .case-study .wrapper {
+    padding-top: 48px;
+  }
+}
+
+.case-study-info {
+  max-width: 792px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+@media (min-width: 43.75em) {
+  .case-study-info {
+    margin-bottom: 48px;
+  }
+}
+
+.case-study-images {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.case-study-nav {
+  *zoom: 1;
+}
+.case-study-nav:before, .case-study-nav:after {
+  content: " ";
+  display: block;
+}
+.case-study-nav:after {
+  clear: both;
+}
+
+.case-study-nav .col-1-2 {
+  position: relative;
+  display: block;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 24px 30px;
+  background: #006699;
+}
+@media (min-width: 43.75em) {
+  .case-study-nav .col-1-2 {
+    padding: 36px 30px;
+  }
+}
+
+.case-study-nav a:first-child {
+  text-align: right;
+  padding-left: 40px;
+}
+.case-study-nav a:first-child [class^="icon-"] {
+  left: 20px;
+}
+
+.case-study-nav a:nth-child(2) {
+  background: #3399cc;
+  padding-right: 40px;
+}
+.case-study-nav a:nth-child(2) [class^="icon-"] {
+  right: 20px;
+}
+
+.case-study-nav .label {
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+
+.case-study-nav h3 {
+  color: #fff;
+}
+
+.case-study-nav [class^="icon-"] {
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  fill: #fff;
 }
 
 .hero-blog {

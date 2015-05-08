@@ -121,10 +121,10 @@
     <div class="col-1-2">
       <h2>Connect with us</h2>
       <ul class="bottom-social">
-        <li><a href=""><svg class="icon-facebook"><use xlink:href="#icon-facebook" /></svg></a></li>
-        <li><a href=""><svg class="icon-twitter"><use xlink:href="#icon-twitter" /></svg></a></li>
-        <li><a href=""><svg class="icon-linkedin"><use xlink:href="#icon-linkedin" /></svg></a></li>
-        <li><a href=""><svg class="icon-email"><use xlink:href="#icon-email" /></svg></a></li>
+        <li><a href=""><svg class="icon-circle-facebook"><use xlink:href="#icon-circle-facebook" /></svg></a></li>
+        <li><a href=""><svg class="icon-circle-twitter"><use xlink:href="#icon-circle-twitter" /></svg></a></li>
+        <li><a href=""><svg class="icon-circle-linkedin"><use xlink:href="#icon-circle-linkedin" /></svg></a></li>
+        <li><a href=""><svg class="icon-circle-email"><use xlink:href="#icon-circle-email" /></svg></a></li>
       </ul>
     </div>
   </section>

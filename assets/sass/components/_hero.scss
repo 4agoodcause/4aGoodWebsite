@@ -34,7 +34,7 @@
 
 .hero p {
   @include max-8-col;
-  @include font-size(17px);
+  @include font-size(15px);
   
   &:not(:last-child) {
     margin-bottom: $base;
