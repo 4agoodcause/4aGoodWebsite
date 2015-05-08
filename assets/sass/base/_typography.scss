@@ -134,6 +134,7 @@ em {
 
 .body ul,
 .body ol {
+  @include font-size(15px);
   margin-left: 1.5em;
 }
 
@@ -149,6 +150,6 @@ em {
   margin-bottom: $base;
 
   @include bp-min-width($medium) {
-    @include font-size(18px);
+    @include font-size(17px);
   }
 }

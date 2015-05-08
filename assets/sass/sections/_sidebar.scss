@@ -74,4 +74,29 @@
 }
 
 
+.block-contact {
+  padding: $base 30px;
+  background: $xxlt-grey;
+  border: 1px solid $xlt-grey;
+}
+
+.block-contact .block-title {
+  margin-bottom: 12px;
+}
+
+.block-contact p {
+  @include font-size(13px);
+  @include line-height(20px);
+  margin-bottom: 12px;
+}
+
+.block-contact li:first-child {
+  margin-bottom: 12px;
+}
+
+.block-contact li svg {
+  vertical-align: -2px;
+  margin-right: 10px;
+}
+
 

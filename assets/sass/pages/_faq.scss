@@ -1,0 +1,36 @@
+
+.main-faq {
+  border-top: 1px solid $xlt-grey;
+  border-bottom: 1px solid $xlt-grey;
+}
+
+.content-faq h1 {
+  margin-bottom: 12px;
+  color: $black;
+  
+  @include bp-min-width($medium) {
+    @include font-size(27px);
+  }
+}
+
+.faq-category {
+  padding-top: $base;
+}
+
+.body-faq-answer {
+  padding-bottom: $base*1.5;
+}
+
+.title-faq-category {
+  @include font-size(21px);
+  margin-bottom: 12px;
+  font-weight: $book;
+}
+
+.faq-category .faq-question {
+  @include font-size(19px);
+  margin-bottom: 6px;
+  padding-top: $base*1.5;
+  border-top: 1px solid $xlt-grey;
+  color: $blue;
+}

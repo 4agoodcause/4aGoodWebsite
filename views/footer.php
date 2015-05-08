@@ -7,10 +7,10 @@
             <p class="footer-logo"><a href="/"><img src="/assets/images/logo-white.png" alt="4aGoodCause"></a></p>
             <p class="footer-phone">770-517-5962</p>
             <ul class="footer-social">
-              <li><a href=""><svg class="icon-facebook"><use xlink:href="#icon-facebook" /></svg></a></li>
-              <li><a href=""><svg class="icon-twitter"><use xlink:href="#icon-twitter" /></svg></a></li>
-              <li><a href=""><svg class="icon-linkedin"><use xlink:href="#icon-linkedin" /></svg></a></li>
-              <li><a href=""><svg class="icon-email"><use xlink:href="#icon-email" /></svg></a></li>
+              <li><a href=""><svg class="icon-circle-facebook"><use xlink:href="#icon-circle-facebook" /></svg></a></li>
+              <li><a href=""><svg class="icon-circle-twitter"><use xlink:href="#icon-circle-twitter" /></svg></a></li>
+              <li><a href=""><svg class="icon-circle-linkedin"><use xlink:href="#icon-circle-linkedin" /></svg></a></li>
+              <li><a href=""><svg class="icon-circle-email"><use xlink:href="#icon-circle-email" /></svg></a></li>
             </ul>
           </div>
           
@@ -39,7 +39,7 @@
               <ul>
                 <li><a href="">Features</a></li>
                 <li><a href="">Pricing</a></li>
-                <li><a href="">FAQ</a></li>
+                <li><a href="faq.php">FAQ</a></li>
                 <li><a href="">Request a Demo</a></li>
               </ul>
             </div>
