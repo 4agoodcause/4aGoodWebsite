@@ -1,0 +1,45 @@
+
+.content-article .post {
+  margin-bottom: $base*1.5;
+  padding-bottom: $base*1.5;
+  border-bottom: 1px solid $xlt-grey;
+}
+
+.block-author {
+  position: relative;
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: $base;
+
+  @include bp-min-width($medium) {
+    min-height: 120px;
+    margin-bottom: $base*1.5;
+  }
+}
+
+.author-image {
+  float: right;
+  width: 80px;
+  margin: 0 0 10px 10px;
+
+  @include bp-min-width($medium) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+}
+
+.author-info {
+  @include bp-min-width($medium) {
+    padding: 6px 0 0 140px;
+  }
+}
+
+.author-info .author-name {
+  margin-bottom: 6px;
+}

@@ -15,10 +15,11 @@
   border: 1px solid $lt-grey;
 }
 
-.search-form button {
+.search-form .btn-search {
   position: absolute;
   top: 0;
   right: 0;
+  background: none;
 }
 
 .sidebar .block-tips .form-input-wrap {

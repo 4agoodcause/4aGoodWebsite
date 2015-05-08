@@ -29,7 +29,7 @@
               <li><a href="about.php">About</a></li>
               <li><a href="blog.php">Blog</a></li>
             </ul>
-            <a href="" class="btn btn-demo">Request a Demo</a>
+            <a href="request.php" class="btn btn-demo">Request a Demo</a>
           </nav>
 
         </div>

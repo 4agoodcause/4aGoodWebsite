@@ -51,8 +51,12 @@ h3 {
 }
 
 h4 {
-  @include font-size(17px);
+  @include font-size(15px);
   font-weight: $bold;
+
+  @include bp-min-width($medium) {
+    @include font-size(17px);
+  }
 }
 
 h5 {
@@ -95,6 +99,26 @@ em {
 .label {
   color: $dk-grey;
   font-weight: $bold;
+}
+
+.body h1,
+.body h2,
+.body h3,
+.body h4,
+.body h5 {
+  color: $black;
+}
+
+.body h2,
+.body h3 {
+  margin-bottom: 12px;
+}
+
+.body p + h3,
+.body p + h3 {
+  @include bp-min-width($medium) {
+    margin-top: $base*2;
+  }
 }
 
 .body p,

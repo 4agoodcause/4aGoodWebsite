@@ -13,23 +13,13 @@
       <section class="content-left article-list">
       
         <article class="post">
-          <h2 class="post-title"><a href="">What the NBA can teach us about fundraising</a></h2>
+          <h2 class="post-title"><a href="article.php">What the NBA can teach us about fundraising</a></h2>
           <p class="post-meta"><span class="post-date">Feb 19, 2015</span> &bull; <a href="">Ecommerce and Online Giving</a>, <a href="">Nonprofit Marketing</a></p>
           <figure class="post-image">
-            <a href=""><img src="/assets/images/blog-pic-01.jpg" alt=""></a>
+            <a href="article.php"><img src="/assets/images/blog-pic-01.jpg" alt=""></a>
           </figure>
           <p class="post-teaser">I am a huge sports fan and during basketball season, the Atlanta Hawks are my team. And although they may not always be a contender in the playoffs, this year, they are certainly making a name for themselves.</p>
-          <p><a href="" class="btn btn-small btn-blue">Read More</a></p>
-        </article>
-
-        <article class="post">
-          <h2 class="post-title"><a href="">What the NBA can teach us about fundraising</a></h2>
-          <p class="post-meta"><span class="post-date">Feb 19, 2015</span> &bull; <a href="">Ecommerce and Online Giving</a>, <a href="">Nonprofit Marketing</a></p>
-          <figure class="post-image">
-            <a href=""><img src="/assets/images/blog-pic-01.jpg" alt=""></a>
-          </figure>
-          <p class="post-teaser">I am a huge sports fan and during basketball season, the Atlanta Hawks are my team. And although they may not always be a contender in the playoffs, this year, they are certainly making a name for themselves.</p>
-          <p><a href="" class="btn btn-small btn-blue">Read More</a></p>
+          <p><a href="article.php" class="btn btn-small btn-blue">Read More</a></p>
         </article>
 
         <article class="post">
@@ -88,7 +78,7 @@
               <label for="">Search Articles</label>
               <input type="text">
             </div>
-            <button class="icon-search"></button>
+            <button class="btn-search"><svg class="icon-search"><use xlink:href="#icon-search" /></svg></button>
           </form>
         </div>
 
