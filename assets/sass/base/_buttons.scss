@@ -57,7 +57,7 @@ input[type="button"],
 button {
 	@include global-transition;
 	@include font-size(15px);
-	height: 42px;
+	height: 46px;
 	padding: 0 1.5em;
   background: $blue;
   border: none;
@@ -70,6 +70,10 @@ button {
   &:hover {
     background: $dk-blue;
   }
+}
+
+.form .btn-submit {
+  width: 100%;
 }
 
 .cta-link {

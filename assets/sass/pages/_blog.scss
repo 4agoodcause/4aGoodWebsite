@@ -56,6 +56,12 @@
   color: #fff;
 }
 
+.content-left .block-tips {
+  @include bp-max-width($medium) {
+    display: none;
+  }
+}
+
 .block-tips .block-title {
   margin-bottom: 12px;
   color: #fff;

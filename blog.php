@@ -74,7 +74,7 @@
               <label for="">Email Address</label>
               <input type="email">
             </div>
-            <button>Subscribe</button>
+            <button class="btn-submit">Subscribe</button>
           </form>
         </div>
       
@@ -96,9 +96,11 @@
           <h3 class="block-title">Fundraising Tips</h3>
           <p>Free online fundraising tips delivered directly to your inbox (once a week).</p>
           <form class="newsletter-form">
-            <label for="">Email Address</label>
-            <input type="email">
-            <button>Subscribe</button>
+            <div class="form-input-wrap">
+              <label for="">Email Address</label>
+              <input type="email">
+            </div>
+            <button class="btn-submit">Subscribe</button>
           </form>
         </div>
         
@@ -111,7 +113,7 @@
           </ul>
         </div>
         
-        <div class="block block-categories">
+        <div class="block block-link-list block-categories">
           <h3 class="block-title">Categories</h3>
           <ul>
             <li><a href="">Company and Client News</a></li>
@@ -122,7 +124,7 @@
           </ul>
         </div>
 
-        <div class="block block-popular-posts">
+        <div class="block block-link-list block-popular-posts">
           <h3 class="block-title">Categories</h3>
           <ul>
             <li><a href="">What the NBA can teach us about fundraising</a></li>

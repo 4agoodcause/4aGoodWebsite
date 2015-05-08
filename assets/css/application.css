@@ -449,7 +449,7 @@ button {
   transition: all 0.15s ease-in;
   font-size: 15px;
   font-size: 0.9375rem;
-  height: 42px;
+  height: 46px;
   padding: 0 1.5em;
   background: #006699;
   border: none;
@@ -465,6 +465,10 @@ button:hover {
   background: #075881;
 }
 
+.form .btn-submit {
+  width: 100%;
+}
+
 .cta-link {
   font-size: 17px;
   font-size: 1.0625rem;
@@ -477,11 +481,14 @@ button:hover {
 }
 
 label {
+  font-size: 15px;
+  font-size: 0.9375rem;
   display: block;
 }
 
 .form label {
   margin-bottom: 4px;
+  color: #24292b;
 }
 
 input[type="text"],
@@ -489,7 +496,7 @@ input[type="email"],
 input[type="password"],
 textarea {
   width: 100%;
-  padding: 0.75em 1em;
+  padding: 1em 1em;
   border: 1px solid #838687;
   outline: none;
   font: 400 0.875em/1em "Gotham SSm A", "Gotham SSm B", Helvetica, arial, sans-serif;
@@ -635,7 +642,7 @@ input[type="checkbox"] {
 /** Label Overlay Input ============**/
 .form-input-wrap {
   position: relative;
-  height: 42px;
+  height: 46px;
   background: #fff;
 }
 
@@ -1673,6 +1680,12 @@ td, th {
   color: #fff;
 }
 
+@media (max-width: 43.687em) {
+  .content-left .block-tips {
+    display: none;
+  }
+}
+
 .block-tips .block-title {
   margin-bottom: 12px;
   color: #fff;
@@ -1691,6 +1704,63 @@ td, th {
   width: 100%;
   max-width: 360px;
   margin-right: 12px;
+}
+
+.page-request .container {
+  padding-top: 0;
+}
+
+.header-request .wrapper {
+  padding: 24px 0;
+  text-align: center;
+}
+
+.request-hero h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 27px;
+  line-height: 1.6875rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+@media (min-width: 43.75em) {
+  .request-hero h1 {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 32px;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .main-request .col-1-2 {
+    padding-left: 60px;
+  }
+}
+
+.col-request-form p {
+  margin-bottom: 24px;
+}
+
+.col-request-info .request-devices {
+  margin-bottom: 36px;
+}
+
+.col-request-info h3 {
+  font-size: 17px;
+  font-size: 1.0625rem;
+  margin-bottom: 12px;
+}
+
+.col-request-info ul {
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.col-request-info li {
+  margin-bottom: 12px;
+  padding-left: 24px;
+  background: no-repeat url('/assets/images/icon-arrow-thick.svg?1431105521') 0 3px;
 }
 
 /* @import "pages/style-guide"; */
@@ -1902,6 +1972,10 @@ td, th {
   }
 }
 
+.search-form {
+  position: relative;
+}
+
 .search-form .form-input-wrap {
   border: 1px solid #b7bbbc;
 }
@@ -1910,6 +1984,65 @@ td, th {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.sidebar .block-tips .form-input-wrap {
+  margin-bottom: 12px;
+}
+
+.sidebar .block-tips .btn-submit {
+  width: 100%;
+}
+
+.block-social-links {
+  *zoom: 1;
+  padding: 24px 30px;
+  background: #eff7fb;
+}
+.block-social-links:before, .block-social-links:after {
+  content: " ";
+  display: block;
+}
+.block-social-links:after {
+  clear: both;
+}
+
+@media (max-width: 62.437em) {
+  .block-social-links .block-title {
+    margin-bottom: 12px;
+  }
+}
+@media (min-width: 62.5em) {
+  .block-social-links .block-title {
+    float: left;
+    margin-right: 20px;
+    padding-top: 5px;
+  }
+}
+
+.block-social-links li {
+  float: left;
+  margin-right: 20px;
+}
+
+.block-social-links [class^="icon"] {
+  width: 36px;
+  height: 36px;
+  fill: #006699;
+}
+
+.block-link-list {
+  padding: 24px 30px;
+  background: #f8f8f8;
+  border: 1px solid #e9e9e9;
+}
+
+.block-link-list .block-title {
+  margin-bottom: 24px;
+}
+
+.block-link-list li:not(:last-child) {
+  margin-bottom: 12px;
 }
 
 .footer {

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7340154/684346/css/fonts.css" />
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
-  <body class="page-home">
+  <body>
   
     <div class="container">
     

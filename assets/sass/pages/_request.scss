@@ -1,0 +1,50 @@
+
+.page-request .container {
+  padding-top: 0;
+}
+
+.header-request .wrapper {
+  padding: $base 0;
+  text-align: center;
+}
+
+.request-hero h1 {
+  @include font-size(24px);
+  @include line-height(27px);
+  max-width: 700px;
+  margin: 0 auto;
+
+  @include bp-min-width($medium) {
+    @include font-size(27px);
+    @include line-height(32px);
+  }
+}
+
+.main-request .col-1-2 {
+  @include bp-min-width($xlarge) {
+    padding-left: 60px;
+  }
+}
+
+.col-request-form p {
+  margin-bottom: $base;
+}
+
+.col-request-info .request-devices {
+  margin-bottom: $base*1.5;
+}
+
+.col-request-info h3 {
+  @include font-size(17px);
+  margin-bottom: 12px;
+}
+
+.col-request-info ul {
+  @include font-size(15px);
+}
+
+.col-request-info li {
+  margin-bottom: 12px;
+  padding-left: 24px;
+  background: no-repeat $icon-arrow-thick 0 3px;
+}
