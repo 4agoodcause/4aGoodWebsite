@@ -1,5 +1,6 @@
 
 .post-nav {
+  @include cf;
   @include font-size(13px);
   position: relative;
   margin-bottom: $base;
@@ -7,6 +8,10 @@
 
 .pager {
   text-align: center;
+
+  @include bp-max-width($xsmall) {
+    display: none;
+  }
 }
 
 .pager li {
@@ -19,14 +24,31 @@
 }
 
 .older-newer-posts li {
-  position: absolute;
-  top: 0;
+  @include bp-min-width($xsmall) {
+    position: absolute;
+    top: 5px;
+  }
 }
 
 .older-newer-posts li:nth-child(1) {
-  left: 0;
+  float: left;
+  
+  @include bp-min-width($xsmall) {
+    left: 0;
+  }
 }
 
 .older-newer-posts li:nth-child(2) {
-  right: 0;
+  float: right;
+
+  @include bp-min-width($xsmall) {
+    right: 0;
+  }
+}
+
+.older-newer-posts [class^="icon-"] {
+  width: 8px;
+  height: 14px;
+  vertical-align: -2px;
+  fill: $blue;
 }

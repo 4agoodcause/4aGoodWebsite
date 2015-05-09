@@ -51,8 +51,8 @@
             <li><a href="">5</a></li>
           </ul>
           <ul class="older-newer-posts">
-            <li><a href="">Older Posts</a></li>
-            <li><a href="">Newer Posts</a></li>
+            <li><a href=""><svg class="icon-prev"><use xlink:href="#icon-prev" /></svg> Older Posts</a></li>
+            <li><a href="">Newer Posts <svg class="icon-next"><use xlink:href="#icon-next" /></svg></a></li>
           </ul>
         </div>
 

@@ -949,14 +949,27 @@ td, th {
 }
 
 .post-nav {
+  *zoom: 1;
   font-size: 13px;
   font-size: 0.8125rem;
   position: relative;
   margin-bottom: 24px;
 }
+.post-nav:before, .post-nav:after {
+  content: " ";
+  display: block;
+}
+.post-nav:after {
+  clear: both;
+}
 
 .pager {
   text-align: center;
+}
+@media (max-width: 31.187em) {
+  .pager {
+    display: none;
+  }
 }
 
 .pager li {
@@ -968,17 +981,36 @@ td, th {
   padding: 5px 10px;
 }
 
-.older-newer-posts li {
-  position: absolute;
-  top: 0;
+@media (min-width: 31.25em) {
+  .older-newer-posts li {
+    position: absolute;
+    top: 5px;
+  }
 }
 
 .older-newer-posts li:nth-child(1) {
-  left: 0;
+  float: left;
+}
+@media (min-width: 31.25em) {
+  .older-newer-posts li:nth-child(1) {
+    left: 0;
+  }
 }
 
 .older-newer-posts li:nth-child(2) {
-  right: 0;
+  float: right;
+}
+@media (min-width: 31.25em) {
+  .older-newer-posts li:nth-child(2) {
+    right: 0;
+  }
+}
+
+.older-newer-posts [class^="icon-"] {
+  width: 8px;
+  height: 14px;
+  vertical-align: -2px;
+  fill: #006699;
 }
 
 @media (min-width: 43.75em) {
