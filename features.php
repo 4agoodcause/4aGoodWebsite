@@ -26,13 +26,13 @@
     <div class="wrapper">
       <h2 class="section-title-center">Payment pages with no limits</h2>
       <div class="row">
-        <div class="col-1-2 col-content col-content-right">
+        <div class="col-1-2 col-content col-content-right col-float-right">
           <h3>As many payment pages as you need</h3>
           <p>Receive unlimited payment pages for one flat monthly fee. We'll do all the work to set up your first page and there are no fees when you need additional payment pages or changes to your existing pages.</p>
           <h3>Take payment for almost any purpose</h3>
           <p>Receive access to more payment page options than any other provider. Accept payments for online donations, event registration, membership, program fees, tuition, products sales, and more.</p>
         </div>
-        <div class="col-1-2 col-browser-shots col-right">
+        <div class="col-1-2 col-browser-shots">
           <img src="assets/images/browser-shots-01.jpg" alt="">
         </div>
       </div>

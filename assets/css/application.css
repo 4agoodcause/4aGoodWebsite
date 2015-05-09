@@ -923,6 +923,12 @@ td, th {
   }
 }
 
+@media (min-width: 43.75em) {
+  .col-float-right {
+    float: right;
+  }
+}
+
 @media (min-width: 75em) {
   .col-devices-right img {
     float: right;
@@ -1875,6 +1881,10 @@ td, th {
   margin-bottom: 36px;
   padding-bottom: 36px;
   border-bottom: 1px solid #e9e9e9;
+}
+
+.content-article .post-title {
+  color: #24292b;
 }
 
 .block-author {

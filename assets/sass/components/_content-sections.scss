@@ -23,6 +23,12 @@
   }
 }
 
+.col-float-right {
+  @include bp-min-width($medium) {
+    float: right;
+  }
+}
+
 .col-devices-right img {
   @include bp-min-width($xlarge) {
     float: right;
