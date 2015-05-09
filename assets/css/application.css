@@ -856,6 +856,9 @@ td, th {
 }
 
 .testimonial-name-org {
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   position: absolute;
   top: 50%;
@@ -1181,6 +1184,9 @@ td, th {
 }
 
 .plan-label {
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   position: absolute;
   left: 50%;
@@ -1456,6 +1462,9 @@ td, th {
 }
 @media (min-width: 62.5em) {
   .col-founder-image {
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     position: absolute;
     top: 50%;
@@ -1572,6 +1581,9 @@ td, th {
 
 @media (min-width: 43.75em) {
   .partner-list .partner-logo img {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
@@ -1610,6 +1622,9 @@ td, th {
 }
 
 .client-list .client-logo {
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   position: relative;
   top: 50%;
@@ -1634,6 +1649,9 @@ td, th {
 }
 
 .client-teaser {
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   position: absolute;
   top: 50%;
@@ -1754,6 +1772,9 @@ td, th {
 }
 
 .case-study-nav [class^="icon-"] {
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   position: absolute;
   top: 50%;
