@@ -103,12 +103,14 @@
   color: $grey;
 }
 
-.plan-features-plus li {
+.plan-features-plus li:not(:last-child) {
   margin-bottom: $base;
 }
 
 .pricing-additional-features h3 {
-  margin-bottom: 12px;
+  @include bp-min-width($medium) {
+    margin-bottom: 12px;
+  }
 }
 
 .pricing-additional-features p:first-of-type {
