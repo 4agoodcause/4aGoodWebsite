@@ -8,112 +8,114 @@
 
   <section class="section-clients">
     <div class="wrapper">
+
       <div class="row client-list">
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="case-study.php" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-1-4">
-          <div class="col-wrap">
+          <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
               <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
                 <h3>Raised $80,000 in three days</h3>
-                <p><a href="" class="btn btn-small btn-blue">View Case Study</a></p>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
+
     </div>
   </section>
 

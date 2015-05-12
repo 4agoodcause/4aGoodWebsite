@@ -1,8 +1,13 @@
 
 .hero-customers h1 {
   @include max-8-col;
-  @include font-size(32px);
-  @include line-height(42px);
+  @include font-size(24px);
+  @include line-height(30px);
+
+  @include bp-min-width($medium) {
+    @include font-size(32px);
+    @include line-height(42px);
+  }
 }
 
 .client-list .col-1-4 {
@@ -19,6 +24,7 @@
 
 .client-list .col-wrap {
   position: relative;
+  display: block;
   width: 100%;
   height: $base*10;
   border: 1px solid $xlt-grey;
