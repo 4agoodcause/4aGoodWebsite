@@ -61,7 +61,7 @@
 
 .logo-grid {
   @include bp-min-width($large) {
-    padding-top: $base;
+    margin-top: -12px;
   }
 }
 

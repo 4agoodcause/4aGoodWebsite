@@ -29,6 +29,7 @@
               <li><a href="customers.php">Customers</a></li>
               <li><a href="about.php">About</a></li>
               <li><a href="blog.php">Blog</a></li>
+              <li><a href="request.php">Request a Demo</a></li>
             </ul>
             <a href="request.php" class="btn btn-demo">Request a Demo</a>
           </nav>

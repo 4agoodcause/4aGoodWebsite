@@ -871,7 +871,7 @@ td, th {
 
 @media (min-width: 62.5em) {
   .logo-grid {
-    padding-top: 24px;
+    margin-top: -12px;
   }
 }
 
@@ -2120,6 +2120,12 @@ td, th {
   .header .nav li {
     display: inline-block;
     margin: 0 20px;
+  }
+}
+
+@media (min-width: 62.5em) {
+  .header .nav li:last-child {
+    display: none;
   }
 }
 

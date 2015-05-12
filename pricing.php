@@ -96,9 +96,9 @@
   
   <section class="pricing-testimonials section-testimonals">
     <div class="wrapper">
+      <h2 class="section-title">We work with some great causes</h2>
       <div class="row">
         <div class="col-1-2">
-          <h2 class="section-title">We work with some great causes</h2>
           <p class="testimonial-quote"><span class="quote-mark">&ldquo;</span>4aGoodCause has provided us with responsive, personalized service, always willing to go the extra mile to help with our specific needs.</p>
           <div class="testimonial-info">
             <img src="assets/images/headshot-deborah-hakes.jpg" alt="Deborah Hakes" class="testimonial-headshot">

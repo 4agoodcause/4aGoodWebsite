@@ -22,6 +22,12 @@
   }
 }
 
+.header .nav li:last-child {
+  @include bp-min-width($large) {
+    display: none;
+  }
+}
+
 .header .nav li a {
   position: relative;
   font-weight: $med;
