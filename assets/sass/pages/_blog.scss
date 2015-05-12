@@ -75,13 +75,21 @@
   position: relative;
 }
 
+.content-left .newsletter-form {
+  max-width: 500px;
+  height: 42px;
+  padding-right: 140px;
+}
+
+.content-left button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .content-left .newsletter-form .form-input-wrap {
   float: left;
   width: 100%;
-  max-width: 360px;
-  margin-right: 12px;
 }
-
-
 
 
