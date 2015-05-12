@@ -1,0 +1,28 @@
+
+.video-embed-wrap {
+	position: relative;
+	margin-bottom: $base;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-embed-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+figure {
+  margin-bottom: $base;
+}
+
+figcaption {
+  @include font-size(13px);
+  @include line-height(18px);
+  margin: 12px 0;
+  color: $grey;
+  font-style: italic;
+}

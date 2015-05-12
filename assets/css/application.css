@@ -191,8 +191,11 @@ em {
 }
 
 @media (min-width: 50em) {
-  .body p + h3,
-  .body p + h3 {
+  .body p + h2, .body p + h3,
+  .body ul + h2,
+  .body ul + h3,
+  .body ol + h2,
+  .body ol + h3 {
     margin-top: 48px;
   }
 }
@@ -201,7 +204,6 @@ em {
 .body ul,
 .body ol {
   margin-bottom: 24px;
-  color: #838687;
 }
 .body p:last-child, .body p.label,
 .body ul:last-child,
@@ -224,6 +226,30 @@ em {
 
 .body ol li {
   list-style: decimal;
+}
+
+blockquote {
+  margin-bottom: 24px;
+  padding: 24px;
+  background: #eff7fb;
+  border-left: 4px solid #3399cc;
+}
+
+blockquote p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  color: #006699;
+  font-style: italic;
+}
+@media (min-width: 50em) {
+  blockquote p {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+  }
 }
 
 .intro {
@@ -734,6 +760,37 @@ table {
 
 td, th {
   text-align: left;
+}
+
+.video-embed-wrap {
+  position: relative;
+  margin-bottom: 24px;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-embed-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figure {
+  margin-bottom: 24px;
+}
+
+figcaption {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  margin: 12px 0;
+  color: #838687;
+  font-style: italic;
 }
 
 .hero {

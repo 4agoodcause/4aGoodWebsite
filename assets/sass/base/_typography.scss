@@ -109,10 +109,14 @@ em {
   margin-bottom: 12px;
 }
 
-.body p + h3,
-.body p + h3 {
-  @include bp-min-width($medium) {
-    margin-top: $base*2;
+.body p,
+.body ul,
+.body ol {
+  & + h2,
+  & + h3 {
+    @include bp-min-width($medium) {
+      margin-top: $base*2;
+    }
   }
 }
 
@@ -120,9 +124,9 @@ em {
 .body ul,
 .body ol {
   margin-bottom: $base;
-  color: $grey;
-
-  &:last-child, &.label {
+  
+  &:last-child,
+  &.label {
     margin-bottom: 0;
   }
 }
@@ -139,6 +143,26 @@ em {
 
 .body ol li {
   list-style: decimal;
+}
+
+
+blockquote {
+  margin-bottom: $base;
+  padding: $base;
+  background: $xxlt-blue;
+  border-left: 4px solid $lt-blue;
+}
+
+blockquote p {
+  @include font-size(24px);
+  @include line-height(30px);
+  color: $blue;
+  font-style: italic;
+
+  @include bp-min-width($medium) {
+    @include font-size(27px);
+    @include line-height(36px);
+  }
 }
 
 .intro {
