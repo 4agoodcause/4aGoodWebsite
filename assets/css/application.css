@@ -627,7 +627,6 @@ textarea {
   right: 17px;
   width: 11px;
   height: 7px;
-  background: url('/assets/images/sprite.svg') no-repeat -15px -20px;
 }
 
 .form-select select {
@@ -926,6 +925,11 @@ figcaption {
   font-weight: 500;
 }
 
+@media (min-width: 50em) and (max-width: 62.437em) {
+  .logo-grid {
+    margin-top: -20px;
+  }
+}
 @media (min-width: 62.5em) {
   .logo-grid {
     margin-top: -12px;
@@ -942,6 +946,7 @@ figcaption {
 @media (min-width: 50em) and (max-width: 62.437em) {
   .logo-grid li {
     width: 50%;
+    margin-bottom: 12px;
   }
 }
 
@@ -1989,6 +1994,10 @@ figcaption {
 
 .content-article .post-title {
   color: #24292b;
+}
+
+.addthis_sharing_toolbox {
+  margin-bottom: 12px;
 }
 
 .block-author {

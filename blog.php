@@ -137,4 +137,6 @@
     </div>
   </section>
 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55523e4968bf1e30" async="async"></script>
+
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/footer.php'; ?>

@@ -18,6 +18,7 @@
           <figure class="post-image">
             <img src="/assets/images/blog-pic-01.jpg" alt="">
           </figure>
+          <div class="addthis_sharing_toolbox"></div>
           <div class="body post-body">
             <p>I am a huge sports fan and during basketball season, the Atlanta Hawks are my team. And although they may not always be a contender in the playoffs, this year, they are certainly making a name for themselves.</p>
             <p>Your nonprofit may be in a similar boat. Maybe you are doing great things but you don?t have the recognition such as the Chicago Bulls or a star player like Lebron James. I?m here to tell you that it doesn?t matter?you can still do great things and raise big dollars by taking a few tips from those who have been through similar struggles.</p>
@@ -154,4 +155,5 @@
     </div>
   </section>
 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55523e4968bf1e30" async="async"></script>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/footer.php'; ?>

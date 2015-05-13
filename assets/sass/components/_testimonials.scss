@@ -60,6 +60,10 @@
 }
 
 .logo-grid {
+  @include bp-min-max($medium, $large) {
+    margin-top: -20px;
+  }
+
   @include bp-min-width($large) {
     margin-top: -12px;
   }
@@ -74,6 +78,7 @@
 
   @include bp-min-max($medium, $large) {
     width: 50%;
+    margin-bottom: 12px;
   }
 }
 
