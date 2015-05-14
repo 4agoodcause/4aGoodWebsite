@@ -13,11 +13,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-wellstar.png" alt="Wellstar">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>Mobile-friendly employee giving</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -26,11 +26,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-hearts.png" alt="Hearts of Families">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>Website traffic up over 50%</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -39,11 +39,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-project-cure.png" alt="Project CURE">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>$20,000 raised via text-to-donate event</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -52,11 +52,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-inter-faith.png" alt="Inter-Faith Food Shuttle">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>More than $7400/month in recurring gifts</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -65,11 +65,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-bbbs.png" alt="Big Brothers Big Sisters of Greater Kansas City">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>Gift size double national benchmarks</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -78,11 +78,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-way-fm.png" alt="Way FM">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>Over 4000 monthly givers enrolled</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -91,11 +91,11 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-concordia.png" alt="Concordia University Chicago">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>Almost $100,000 raised via peer-to-peer</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
@@ -104,11 +104,63 @@
         <div class="col-1-4">
           <a href="case-study.php" class="col-wrap">
             <div class="client-logo">
-              <img src="assets/images/logo-client-lss.png" alt="Live Sun Smart">
+              <img src="assets/images/logo-customer-cfnj.png" alt="Community Foundation of New Jersey">
             </div>
             <div class="hover-overlay">
               <div class="client-teaser">
-                <h3>Raised $80,000 in three days</h3>
+                <h3>Thousands raised for Hurricane Sandy relief</h3>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-1-4">
+          <a href="case-study.php" class="col-wrap">
+            <div class="client-logo">
+              <img src="assets/images/logo-customer-girl-scouts.png" alt="Girls Scouts of NE Kansas SW Missouri">
+            </div>
+            <div class="hover-overlay">
+              <div class="client-teaser">
+                <h3>166 monthly givers and growing</h3>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-1-4">
+          <a href="case-study.php" class="col-wrap">
+            <div class="client-logo">
+              <img src="assets/images/logo-customer-mercy.png" alt="Mercy Health Foundations">
+            </div>
+            <div class="hover-overlay">
+              <div class="client-teaser">
+                <h3>Online giving for 19 local foundations</h3>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-1-4">
+          <a href="case-study.php" class="col-wrap">
+            <div class="client-logo">
+              <img src="assets/images/logo-customer-belmont.png" alt="Belmont After School Enrichment Collaborative">
+            </div>
+            <div class="hover-overlay">
+              <div class="client-teaser">
+                <h3>Easy online registration for parents</h3>
+                <p><span class="btn btn-small btn-blue">View Case Study</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-1-4">
+          <a href="case-study.php" class="col-wrap">
+            <div class="client-logo">
+              <img src="assets/images/logo-customer-lacrosse.png" alt="Lacrosse the Nations">
+            </div>
+            <div class="hover-overlay">
+              <div class="client-teaser">
+                <h3>$150 average gift size</h3>
                 <p><span class="btn btn-small btn-blue">View Case Study</span></p>
               </div>
             </div>
