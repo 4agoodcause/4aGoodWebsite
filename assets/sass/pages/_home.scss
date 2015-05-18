@@ -1,11 +1,17 @@
 
-.home-hero .wrapper {
+.hero-home {
+  background: $hero-home no-repeat center center;
+  background-size: cover;
+}
+
+
+.hero-home .wrapper {
   @include bp-min-width($medium) {
     padding: $base*5 0;
   }
 }
 
-.home-hero h1 {
+.hero-home h1 {
   @include bp-min-width($medium) {
     @include font-size(60px);
   }

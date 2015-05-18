@@ -1142,14 +1142,19 @@ figcaption {
   width: 100%;
 }
 
+.hero-home {
+  background: url('/assets/images/hero-home.jpg?1431986196') no-repeat center center;
+  background-size: cover;
+}
+
 @media (min-width: 50em) {
-  .home-hero .wrapper {
+  .hero-home .wrapper {
     padding: 120px 0;
   }
 }
 
 @media (min-width: 50em) {
-  .home-hero h1 {
+  .hero-home h1 {
     font-size: 60px;
     font-size: 3.75rem;
   }
