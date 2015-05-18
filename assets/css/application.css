@@ -1143,7 +1143,7 @@ figcaption {
 }
 
 .hero-home {
-  background: url('/assets/images/hero-home.jpg?1431986196') no-repeat center center;
+  background: #006699 url('/assets/images/hero-home.jpg?1431986196') no-repeat center center;
   background-size: cover;
 }
 
@@ -1490,7 +1490,7 @@ figcaption {
 }
 
 .hero-features {
-  background: url('/assets/images/hero-features.jpg?1430942173') no-repeat center center;
+  background: #006699 url('/assets/images/hero-features.jpg?1430942173') no-repeat center center;
   background-size: cover;
 }
 
