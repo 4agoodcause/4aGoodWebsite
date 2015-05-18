@@ -1,0 +1,49 @@
+.block-tips {
+  padding: $base*1.5 30px;
+  background: $lt-blue;
+  color: #fff;
+}
+
+.content-left .block-tips {
+  @include bp-max-width($medium) {
+    display: none;
+  }
+}
+
+.sidebar .block-tips .form-input-wrap {
+  margin-bottom: 12px;
+}
+
+.sidebar .block-tips .btn-submit {
+  width: 100%;
+}
+
+.block-tips .block-title {
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.block-tips p {
+  margin-bottom: $base;
+}
+
+.newsletter-form {
+  position: relative;
+}
+
+.content-left .newsletter-form {
+  max-width: 500px;
+  height: 42px;
+  padding-right: 140px;
+}
+
+.content-left button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.content-left .newsletter-form .form-input-wrap {
+  float: left;
+  width: 100%;
+}

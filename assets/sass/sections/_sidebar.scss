@@ -7,6 +7,12 @@
   }
 }
 
+.sidebar .block-title {
+  @include bp-min-max($medium, $large) {
+    @include font-size(17px);
+  }
+}
+
 .search-form {
   position: relative;
 }
@@ -20,14 +26,6 @@
   top: 0;
   right: 0;
   background: none;
-}
-
-.sidebar .block-tips .form-input-wrap {
-  margin-bottom: 12px;
-}
-
-.sidebar .block-tips .btn-submit {
-  width: 100%;
 }
 
 .block-social-links {
@@ -74,7 +72,6 @@
   margin-bottom: 12px;
 }
 
-
 .block-contact {
   padding: $base 30px;
   background: $xxlt-grey;
@@ -99,5 +96,3 @@
   vertical-align: -2px;
   margin-right: 10px;
 }
-
-
