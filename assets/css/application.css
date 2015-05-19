@@ -74,6 +74,9 @@ a {
   outline: none;
 }
 
+/*****************************************
+  TYPOGRAPHY
+*****************************************/
 body {
   font: 400 1em/1.5em "Gotham SSm A", "Gotham SSm B", Helvetica, arial, sans-serif;
   color: #5b5f60;
@@ -262,6 +265,9 @@ blockquote p {
   }
 }
 
+/*****************************************
+  ICONS
+*****************************************/
 svg {
   transition: all 0.15s ease-in;
 }
@@ -336,6 +342,9 @@ svg:not(:root) {
   margin-right: 10px;
 }
 
+/*****************************************
+  GRID
+*****************************************/
 @media (min-width: 50em) {
   .row {
     *zoom: 1;
@@ -409,6 +418,9 @@ svg:not(:root) {
   }
 }
 
+/*****************************************
+  LAYOUT
+*****************************************/
 body {
   background: #838687;
 }
@@ -490,6 +502,9 @@ body {
   visibility: hidden;
 }
 
+/*****************************************
+  LINKS / BUTTONS
+*****************************************/
 a {
   transition: all 0.15s ease-in;
   color: #006699;
@@ -574,6 +589,9 @@ button:hover {
   font-weight: 500;
 }
 
+/*****************************************
+  FORMS
+*****************************************/
 .form-item {
   margin-bottom: 12px;
 }
@@ -653,10 +671,6 @@ textarea {
 .form-select select {
   -moz-appearance: none;
   -webkit-appearance: none;
-  /*
-    text-indent: 0.01px;
-    text-overflow: '';
-  */
 }
 
 select::-ms-expand {
@@ -773,15 +787,9 @@ input[type="checkbox"] {
   color: #cc3333;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td, th {
-  text-align: left;
-}
-
+/*****************************************
+  MEDIA (Video/Images)
+*****************************************/
 .video-embed-wrap {
   position: relative;
   margin-bottom: 24px;
@@ -813,6 +821,9 @@ figcaption {
   font-style: italic;
 }
 
+/*****************************************
+  HERO
+*****************************************/
 .hero {
   text-align: center;
 }
@@ -864,6 +875,9 @@ figcaption {
   color: #006699;
 }
 
+/*****************************************
+  TESTIMONIALS
+*****************************************/
 .section-testimonals {
   background: #fffaea;
 }
@@ -978,6 +992,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  CONTENT SECTIONS
+*****************************************/
 .col-content p:first-of-type {
   margin-bottom: 24px;
 }
@@ -1027,6 +1044,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  PAGER / POST NAV (Blog)
+*****************************************/
 .post-nav {
   *zoom: 1;
   font-size: 13px;
@@ -1092,6 +1112,9 @@ figcaption {
   fill: #006699;
 }
 
+/*****************************************
+  TIPS SIGN UP BLOCK (Newsletter)
+*****************************************/
 .block-tips {
   padding: 36px 30px;
   background: #3399cc;
@@ -1142,6 +1165,9 @@ figcaption {
   width: 100%;
 }
 
+/*****************************************
+  HOME
+*****************************************/
 .hero-home {
   background: #006699 url('/assets/images/hero-home.jpg?1431986196') no-repeat center center;
   background-size: cover;
@@ -1318,6 +1344,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  PRICING
+*****************************************/
 .section-pricing-plans .wrapper {
   border-bottom: 1px solid #e9e9e9;
 }
@@ -1489,6 +1518,9 @@ figcaption {
   color: #24292b;
 }
 
+/*****************************************
+  FEATURES
+*****************************************/
 .hero-features {
   background: #006699 url('/assets/images/hero-features.jpg?1430942173') no-repeat center center;
   background-size: cover;
@@ -1544,6 +1576,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  ABOUT
+*****************************************/
 .hero-about {
   background: #006699 url('/assets/images/hero-about.jpg?1430954686') no-repeat center center;
   background-size: auto 100%;
@@ -1765,6 +1800,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  CUSTOMERS
+*****************************************/
 .hero-customers h1 {
   max-width: 792px;
   margin: 0 auto;
@@ -1870,6 +1908,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  CASE STUDY
+*****************************************/
 @media (min-width: 50em) {
   .hero-case-study .wrapper {
     padding: 48px 0;
@@ -1964,6 +2005,9 @@ figcaption {
   fill: #fff;
 }
 
+/*****************************************
+  BLOG PAGE
+*****************************************/
 .hero-blog {
   background: #006699;
   color: #fff;
@@ -2020,6 +2064,9 @@ figcaption {
   margin-bottom: 24px;
 }
 
+/*****************************************
+  BLOG ARTICLE
+*****************************************/
 .content-article .post {
   margin-bottom: 36px;
   padding-bottom: 36px;
@@ -2074,6 +2121,9 @@ figcaption {
   margin-bottom: 6px;
 }
 
+/*****************************************
+  REQUEST A DEMO
+*****************************************/
 .page-request .container {
   padding-top: 0;
 }
@@ -2135,6 +2185,9 @@ figcaption {
   background: no-repeat url('/assets/images/icon-arrow-thick.svg?1431105521') 0 3px;
 }
 
+/*****************************************
+  FAQ
+*****************************************/
 .main-faq {
   border-top: 1px solid #e9e9e9;
   border-bottom: 1px solid #e9e9e9;
@@ -2175,6 +2228,9 @@ figcaption {
   color: #006699;
 }
 
+/*****************************************
+  HEADER
+*****************************************/
 .header {
   *zoom: 1;
   overflow: hidden;
@@ -2219,6 +2275,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  NAV
+*****************************************/
 .header .nav {
   text-align: center;
 }
@@ -2319,6 +2378,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  BOTTOM CALL-TO-ACTION
+*****************************************/
 .bottom-cta {
   text-align: center;
 }
@@ -2381,6 +2443,9 @@ figcaption {
   }
 }
 
+/*****************************************
+  SIDEBAR (Blog)
+*****************************************/
 .sidebar .block {
   margin-bottom: 24px;
 }
@@ -2491,6 +2556,9 @@ figcaption {
   margin-right: 10px;
 }
 
+/*****************************************
+  FOOTER
+*****************************************/
 .footer {
   *zoom: 1;
   color: #fff;
