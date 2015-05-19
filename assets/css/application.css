@@ -1169,7 +1169,7 @@ figcaption {
   HOME
 *****************************************/
 .hero-home {
-  background: #006699 url('/assets/images/hero-home.jpg?1431986196') no-repeat center center;
+  background: #006699 url('/assets/images/hero-home.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -1522,7 +1522,7 @@ figcaption {
   FEATURES
 *****************************************/
 .hero-features {
-  background: #006699 url('/assets/images/hero-features.jpg?1430942173') no-repeat center center;
+  background: #006699 url('/assets/images/hero-features.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -1580,7 +1580,7 @@ figcaption {
   ABOUT
 *****************************************/
 .hero-about {
-  background: #006699 url('/assets/images/hero-about.jpg?1430954686') no-repeat center center;
+  background: #006699 url('/assets/images/hero-about.jpg') no-repeat center center;
   background-size: auto 100%;
 }
 
@@ -1630,7 +1630,7 @@ figcaption {
   padding-left: 46px;
   font-family: "Gotham A", "Gotham B", Helvetica, arial, sans-serif;
   color: #24292b;
-  background: url('/assets/images/icon-checkmark.svg?1430957053') no-repeat 0 0;
+  background: url('/assets/images/icon-checkmark.svg') no-repeat 0 0;
 }
 @media (min-width: 50em) {
   .section-our-promise li {
@@ -2182,7 +2182,7 @@ figcaption {
 .col-request-info li {
   margin-bottom: 12px;
   padding-left: 24px;
-  background: no-repeat url('/assets/images/icon-arrow-thick.svg?1431105521') 0 3px;
+  background: no-repeat url('/assets/images/icon-arrow-thick.svg') 0 3px;
 }
 
 /*****************************************
