@@ -1200,6 +1200,8 @@ figcaption {
 }
 
 .home-stats .wrapper {
+  background: url('/assets/images/stats-bar-graph.svg') no-repeat center bottom;
+  background-size: contain;
   border-bottom: 1px solid #e9e9e9;
 }
 

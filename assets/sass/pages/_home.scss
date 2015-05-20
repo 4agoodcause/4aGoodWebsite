@@ -7,7 +7,6 @@
   background-size: cover;
 }
 
-
 .hero-home .wrapper {
   @include bp-min-width($medium) {
     padding: $base*5 0;
@@ -25,6 +24,8 @@
 }
 
 .home-stats .wrapper {
+  background: $stats-bar-graph no-repeat center bottom;
+  background-size: contain;
   border-bottom: 1px solid $xlt-grey;
 }
 
