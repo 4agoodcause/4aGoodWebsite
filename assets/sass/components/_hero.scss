@@ -3,6 +3,7 @@
 *****************************************/
 
 .hero {
+  position: relative;
   text-align: center;
 }
 
@@ -46,4 +47,12 @@
 
 .hero-white h1 {
   color: $blue;
+}
+
+.hero-image-credit {
+  @include font-size(12px);
+  position: absolute;
+  left: 20px;
+  bottom: 12px;
+  color: rgba(255,255,255,0.5);
 }

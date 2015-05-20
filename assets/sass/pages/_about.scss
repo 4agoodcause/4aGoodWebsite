@@ -137,6 +137,12 @@
   border-bottom: 1px solid $xlt-grey;
 }
 
+.section-partners .wrapper {
+  @include bp-min-width($medium) {
+    padding-bottom: $base;
+  }
+}
+
 .section-partners .section-title-center {
   @include bp-max-width($medium) {
     text-align: center;

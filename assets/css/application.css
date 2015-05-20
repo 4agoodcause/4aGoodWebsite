@@ -825,6 +825,7 @@ figcaption {
   HERO
 *****************************************/
 .hero {
+  position: relative;
   text-align: center;
 }
 
@@ -873,6 +874,15 @@ figcaption {
 
 .hero-white h1 {
   color: #006699;
+}
+
+.hero-image-credit {
+  font-size: 12px;
+  font-size: 0.75rem;
+  position: absolute;
+  left: 20px;
+  bottom: 12px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*****************************************
@@ -1744,6 +1754,12 @@ figcaption {
 }
 .section-partners:after {
   clear: both;
+}
+
+@media (min-width: 50em) {
+  .section-partners .wrapper {
+    padding-bottom: 24px;
+  }
 }
 
 @media (max-width: 49.937em) {

@@ -5,6 +5,7 @@
       <h1>Unlimited, mobile-friendly fundraising</h1>
       <p>No annual contracts, no set up fees, no monthly minimums, no early termination fees.</p>
       <p><a href="" class="btn btn-blue">Request a Demo</a></p>
+      <div class="hero-image-credit">Big Brothers Big Sisters of Northern NJ</div>
     </div>
   </section>
 
