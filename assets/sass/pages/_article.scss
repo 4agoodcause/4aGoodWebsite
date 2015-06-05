@@ -12,6 +12,20 @@
   color: $black;
 }
 
+.content-article .image-alight-right {
+  @include bp-min-width($xsmall) {
+    float: right;
+    margin: 0 0 20px 20px;
+  }
+}
+
+.content-article .image-alight-left {
+  @include bp-min-width($xsmall) {
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+}
+
 .addthis_sharing_toolbox {
   margin-bottom: 12px;
 }

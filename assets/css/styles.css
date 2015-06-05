@@ -2161,6 +2161,20 @@ figcaption {
   color: #24292b;
 }
 
+@media (min-width: 31.25em) {
+  .content-article .image-alight-right {
+    float: right;
+    margin: 0 0 20px 20px;
+  }
+}
+
+@media (min-width: 31.25em) {
+  .content-article .image-alight-left {
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+}
+
 .addthis_sharing_toolbox {
   margin-bottom: 12px;
 }
