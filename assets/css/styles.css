@@ -535,7 +535,10 @@ button:hover {
   background: #075881;
 }
 
-.form .btn-submit {
+.form .btn-submit,
+.form input[type="submit"],
+.form input[type="button"],
+.form button {
   width: 100%;
 }
 
@@ -757,6 +760,13 @@ input[type="checkbox"] {
 .message.error {
   color: #cc3333;
 }
+
+/** Captcha ============**/
+
+.g-recaptcha {
+  margin-bottom: 24px;
+}
+
 
 /*****************************************
   MEDIA (Video/Images)

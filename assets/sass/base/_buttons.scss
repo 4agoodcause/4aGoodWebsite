@@ -75,7 +75,10 @@ button {
   }
 }
 
-.form .btn-submit {
+.form .btn-submit,
+.form input[type="submit"],
+.form input[type="button"],
+.form button {
   width: 100%;
 }
 
