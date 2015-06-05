@@ -64,6 +64,7 @@
   }
 }
 
+.header .nav .active:after,
 .header .nav a:hover:after {
   @include bp-min-width($large) {
     bottom: -27px;

@@ -24,7 +24,7 @@
           <nav class="nav">
             <a href="./" class="btn btn-mobile">Menu</a>
             <ul class="nav-links">
-              <li><a href="features.php">Features</a></li>
+              <li><a href="features.php" class="active">Features</a></li>
               <li><a href="pricing.php">Pricing</a></li>
               <li><a href="customers.php">Customers</a></li>
               <li><a href="about.php">About</a></li>

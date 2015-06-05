@@ -2359,6 +2359,7 @@ figcaption {
 }
 
 @media (min-width: 62.5em) {
+  .header .nav .active:after,
   .header .nav a:hover:after {
     bottom: -27px;
   }
