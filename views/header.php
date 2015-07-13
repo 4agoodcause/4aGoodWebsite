@@ -11,14 +11,14 @@
   </head>
   <body>
   <?php include $_SERVER['DOCUMENT_ROOT'].'/views/svg.php'; ?>
-  
+
     <div class="container">
-    
+
       <header class="header">
         <div class="wrapper">
-        
+
           <div class="logo">
-            <a href="./" title="4aGoodCause"><img src="/assets/images/logo.png" alt="4aGoodCause"></a>
+            <a href="./" title="4aGoodCause"><img src="/assets/images/logo.svg" alt="4aGoodCause"></a>
           </div>
 
           <nav class="nav">

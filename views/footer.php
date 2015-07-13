@@ -1,10 +1,10 @@
     <footer class="footer">
-    
+
       <div class="footer-top">
         <div class="wrapper">
-        
+
           <div class="footer-co-info">
-            <p class="footer-logo"><a href="/"><img src="/assets/images/logo-white.png" alt="4aGoodCause"></a></p>
+            <p class="footer-logo"><a href="/"><img src="/assets/images/logo-white.svg" alt="4aGoodCause"></a></p>
             <p class="footer-phone">770-517-5962</p>
             <ul class="footer-social">
               <li><a href=""><svg class="icon-circle-facebook"><use xlink:href="#icon-circle-facebook" /></svg></a></li>
@@ -13,7 +13,7 @@
               <li><a href=""><svg class="icon-circle-email"><use xlink:href="#icon-circle-email" /></svg></a></li>
             </ul>
           </div>
-          
+
           <nav class="footer-nav">
             <div class="col">
               <h4>Connect</h4>
@@ -44,16 +44,16 @@
               </ul>
             </div>
           </nav>
-          
-        </div>      
+
+        </div>
       </div>
-      
+
       <div class="footer-bottom">
         <div class="wrapper">
           <p>&copy;2015 4aGoodCause, LLC. <a href="">Terms of Use</a> | <a href="">Privacy Policy</a></p>
         </div>
       </div>
-      
+
     </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
