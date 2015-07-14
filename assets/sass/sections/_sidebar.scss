@@ -46,13 +46,16 @@
   @include bp-min-width($large) {
     float: left;
     margin-right: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
   }
 }
 
 .block-social-links li {
   float: left;
-  margin-right: 20px;
+}
+
+.block-social-links li:not(:last-child) {
+  margin-right: 12px;
 }
 
 .block-social-links [class^="icon"] {

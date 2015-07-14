@@ -2538,13 +2538,16 @@ figcaption {
   .block-social-links .block-title {
     float: left;
     margin-right: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
   }
 }
 
 .block-social-links li {
   float: left;
-  margin-right: 20px;
+}
+
+.block-social-links li:not(:last-child) {
+  margin-right: 12px;
 }
 
 .block-social-links [class^="icon"] {
@@ -2661,6 +2664,7 @@ figcaption {
 }
 
 .footer-co-info .footer-logo {
+  max-width: 180px;
   margin-bottom: 18px;
 }
 

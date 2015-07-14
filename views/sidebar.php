@@ -21,16 +21,17 @@
       <button class="btn-submit">Subscribe</button>
     </form>
   </div>
-  
+
   <div class="block block-social-links">
     <h3 class="block-title">Follow Us</h3>
     <ul class="sidebar-social">
       <li><a href=""><svg class="icon-circle-facebook"><use xlink:href="#icon-circle-facebook" /></svg></a></li>
       <li><a href=""><svg class="icon-circle-twitter"><use xlink:href="#icon-circle-twitter" /></svg></a></li>
       <li><a href=""><svg class="icon-circle-linkedin"><use xlink:href="#icon-circle-linkedin" /></svg></a></li>
+      <li><a href=""><svg class="icon-circle-rss"><use xlink:href="#icon-circle-rss" /></svg></a></li>
     </ul>
   </div>
-  
+
   <div class="block block-link-list block-categories">
     <h3 class="block-title"><svg class="icon-tag"><use xlink:href="#icon-tag" /></svg> Categories</h3>
     <ul>
